@@ -12,42 +12,44 @@ public class GrapchicsPipeline : MonoBehaviour
 
         List<Vector4> verts = Homog(myModel.vertices);
 
-        Display(verts);
+     //   Display(verts);
 
         // First Transforamation
 
         // Rotation by - 25 degrees about (-2,1,1).normilized
 
-        Vector3 axis = new Vector3(-2, 1, 1).normalized;
+        Vector3 axis = new Vector3(-21, 3, -3).normalized;
 
         Matrix4x4 rotationMatrix = Matrix4x4.TRS(Vector3.zero, Quaternion.AngleAxis(-25, axis), Vector3.one);
 
-        Display(rotationMatrix);
+      //  Display(rotationMatrix);
 
 
         List<Vector4> imageAfterRotation = MatrixTransform(rotationMatrix, verts);
 
-        Display(imageAfterRotation);
+      //  Display(imageAfterRotation);
 
 
         // Second Transformation
         
 
-        Matrix4x4 scaleMatrix = Matrix4x4.TRS(Vector3.zero, Quaternion.identity, new Vector3(2, 2, 2));
+        Matrix4x4 scaleMatrix = Matrix4x4.TRS(Vector3.zero, Quaternion.identity, new Vector3(3, 3, 3));
         
-        Display(scaleMatrix);
+     //   Display(scaleMatrix);
 
 
         List<Vector4> imageAfterScale = MatrixTransform(scaleMatrix, imageAfterRotation);
 
-        Display(imageAfterScale);
+      //  Display(imageAfterScale);
 
 
-        Matrix4x4 translationMatrix = Matrix4x4.TRS(new Vector3(0, -3, 2), Quaternion.identity, Vector3.one);
+        Matrix4x4 translationMatrix = Matrix4x4.TRS(new Vector3(-4, 4, -2), Quaternion.identity, Vector3.one);
+
+       // Display(translationMatrix);
 
         List<Vector4> imageAfterTranslation = MatrixTransform(translationMatrix, verts);
 
-        Display(imageAfterTranslation);         
+      //  Display(imageAfterTranslation);         
 
     }
 
