@@ -101,44 +101,108 @@ public class Model
         texture_index_list.Add(new Vector3Int(19, 16, 15)); //39
 
     }
+            /*
+            62, 28 // 0
+            184, 28 // 1
+            307, 28 // 2
+            427, 28 // 3
+
+            32, 54 // 4
+            62, 54 // 5
+            214, 54 // 6
+            276, 54 // 7
+            428, 54 // 8
+            458, 54 // 9
+
+            124, 81 // 10
+            184, 81 // 11
+            307, 81 // 12
+            369, 81 // 13
+
+            92, 107 // 14
+            184, 107 // 15
+            214, 107 // 16
+            276, 107 // 17
+            307, 107 // 18
+            401, 107 // 19
+
+            32, 160 // 20
+            62, 160 // 21
+            184, 160 // 22
+            214, 160 // 23
+            276, 160 // 24
+            307, 160 // 25
+            428, 160 // 26
+            458, 160 // 27
+
+            62, 184 // 28
+            184, 184 // 29
+            307, 184 // 30
+            428, 184 // 31
+
+            Top / Bottom
+
+            62, 278 // 32
+            184, 278 // 33
+            62, 305 // 34
+            184, 305 // 35
+            62, 337 // 36
+            214, 337 // 37
+            62, 364 // 38
+            214, 364 // 39
+
+
+            Slance
+
+            247, 278
+            278, 278
+
+
+
+
+            */
     private void addTextureCoords()
     {
-        texture_coordinates.Add(new Vector2(118, 101)); //0
-        texture_coordinates.Add(new Vector2(268, 101)); //1
-        texture_coordinates.Add(new Vector2(353, 101)); //2
-        texture_coordinates.Add(new Vector2(503, 101)); //3
-        texture_coordinates.Add(new Vector2(148, 133)); //4
-        texture_coordinates.Add(new Vector2(238, 133)); //5
-        texture_coordinates.Add(new Vector2(383, 133)); //6
-        texture_coordinates.Add(new Vector2(473, 133)); //7
-        texture_coordinates.Add(new Vector2(148, 165)); //8
-        texture_coordinates.Add(new Vector2(238, 165)); //9
-        texture_coordinates.Add(new Vector2(383, 165)); //10
-        texture_coordinates.Add(new Vector2(473, 165)); //11
-        texture_coordinates.Add(new Vector2(148, 197)); //12
-        texture_coordinates.Add(new Vector2(238, 197)); //13
-        texture_coordinates.Add(new Vector2(383, 197)); //14
-        texture_coordinates.Add(new Vector2(473, 197)); //15
-        texture_coordinates.Add(new Vector2(148, 229)); //16
-        texture_coordinates.Add(new Vector2(238, 229)); //17
-        texture_coordinates.Add(new Vector2(383, 229)); //18
-        texture_coordinates.Add(new Vector2(473, 229)); //19
-        texture_coordinates.Add(new Vector2(118, 261)); //20
-        texture_coordinates.Add(new Vector2(268, 261)); //21
-        texture_coordinates.Add(new Vector2(353, 261)); //22
-        texture_coordinates.Add(new Vector2(503, 261)); //23
-        texture_coordinates.Add(new Vector3(150, 300)); //24
-        texture_coordinates.Add(new Vector3(239, 300)); //25
-        texture_coordinates.Add(new Vector3(150, 324)); //26
-        texture_coordinates.Add(new Vector3(239, 324)); //27
-        texture_coordinates.Add(new Vector3(120, 349)); //28
-        texture_coordinates.Add(new Vector3(148, 349)); //29
-        texture_coordinates.Add(new Vector3(120, 372)); //30
-        texture_coordinates.Add(new Vector3(148, 372)); //31
-        texture_coordinates.Add(new Vector3(313, 330)); //32
-        texture_coordinates.Add(new Vector3(346, 330)); //33
-        texture_coordinates.Add(new Vector3(313, 490)); //34
-        texture_coordinates.Add(new Vector3(346, 490)); //35
+        texture_coordinates.Add(new Vector2(62, 28)); //0
+        texture_coordinates.Add(new Vector2(184, 28)); //1
+        texture_coordinates.Add(new Vector2(307, 28)); //2
+        texture_coordinates.Add(new Vector2(427, 28)); //3
+        texture_coordinates.Add(new Vector2(32, 54)); //4
+        texture_coordinates.Add(new Vector2(62, 54)); //5
+        texture_coordinates.Add(new Vector2(214, 54)); //6
+        texture_coordinates.Add(new Vector2(276, 54)); //7
+        texture_coordinates.Add(new Vector2(428, 54)); //8
+        texture_coordinates.Add(new Vector2(458, 54)); //9
+        texture_coordinates.Add(new Vector2(124, 81)); //10
+        texture_coordinates.Add(new Vector2(184, 81)); //11
+        texture_coordinates.Add(new Vector2(307, 81)); //12
+        texture_coordinates.Add(new Vector2(369, 81)); //13
+        texture_coordinates.Add(new Vector2(92, 107)); //14
+        texture_coordinates.Add(new Vector2(184, 107)); //15
+        texture_coordinates.Add(new Vector2(214, 107)); //16
+        texture_coordinates.Add(new Vector2(276, 107)); //17
+        texture_coordinates.Add(new Vector2(307, 107)); //18
+        texture_coordinates.Add(new Vector2(401, 107)); //19
+        texture_coordinates.Add(new Vector2(32, 160)); //20
+        texture_coordinates.Add(new Vector2(62, 160)); //21
+        texture_coordinates.Add(new Vector2(184, 160)); //22
+        texture_coordinates.Add(new Vector2(214, 160)); //23
+        texture_coordinates.Add(new Vector3(276, 160)); //24
+        texture_coordinates.Add(new Vector3(307, 160)); //25
+        texture_coordinates.Add(new Vector3(428, 160)); //26
+        texture_coordinates.Add(new Vector3(458, 160)); //27
+        texture_coordinates.Add(new Vector3(62, 184)); //28
+        texture_coordinates.Add(new Vector3(184, 184)); //29
+        texture_coordinates.Add(new Vector3(307, 184)); //30
+        texture_coordinates.Add(new Vector3(428, 184)); //31
+        texture_coordinates.Add(new Vector3(62, 278)); //32
+        texture_coordinates.Add(new Vector3(184, 278)); //33
+        texture_coordinates.Add(new Vector3(62, 305)); //34
+        texture_coordinates.Add(new Vector3(184, 305)); //35
+        texture_coordinates.Add(new Vector3(62, 337)); //36
+        texture_coordinates.Add(new Vector3(214, 337)); //37
+        texture_coordinates.Add(new Vector3(62, 364)); //38
+        texture_coordinates.Add(new Vector3(214, 364)); //39
 
     }
 

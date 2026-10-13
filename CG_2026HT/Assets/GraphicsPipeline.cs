@@ -15,7 +15,7 @@ public class GrapchicsPipeline : MonoBehaviour
         //   Display(verts);
 
         // First Transforamation
-
+        // ------- Rotation --------
         // Rotation by 41 degrees about (21, -3, -3).normilized
 
         Vector3 axis = new Vector3(21, -3, -3).normalized;
@@ -23,7 +23,7 @@ public class GrapchicsPipeline : MonoBehaviour
         Matrix4x4 rotationMatrix = Matrix4x4.TRS(Vector3.zero, Quaternion.AngleAxis(41, axis), Vector3.one);
 
         //  Display(rotationMatrix);
-
+        // ------- Image after Rotation --------
 
         List<Vector4> imageAfterRotation = MatrixTransform(rotationMatrix, verts);
 
@@ -31,30 +31,32 @@ public class GrapchicsPipeline : MonoBehaviour
 
 
         // Second Transformation
-        
+        // ------- Scale --------
 
         Matrix4x4 scaleMatrix = Matrix4x4.TRS(Vector3.zero, Quaternion.identity, new Vector3(3, 3, 3));
-        
-        //   Display(scaleMatrix);
 
+        //   Display(scaleMatrix);
+        // ------- Image after Scale --------
 
         List<Vector4> imageAfterScale = MatrixTransform(scaleMatrix, imageAfterRotation);
 
         //  Display(imageAfterScale);
-
+        // ------- Translation --------
 
         Matrix4x4 translationMatrix = Matrix4x4.TRS(new Vector3(-4, 4, -2), Quaternion.identity, Vector3.one);
 
         // Display(translationMatrix);
+        // ------- Image after Translation --------
 
         List<Vector4> imageAfterTranslation = MatrixTransform(translationMatrix, imageAfterScale);
 
         //  Display(imageAfterTranslation);
-
+        // ------- Single Transformation --------
 
         Matrix4x4 singleMatrixOfTransformation = translationMatrix * scaleMatrix * rotationMatrix;
 
         // Display(singleMatrixOfTransformation);
+        // ------- View Matrix --------
 
         Vector3 camPosition = new Vector3(23, 0, 47);
         Vector3 camLookAt = new Vector3(-3, 3, 3);
@@ -63,14 +65,40 @@ public class GrapchicsPipeline : MonoBehaviour
         Matrix4x4 viewingMatrix = Matrix4x4.LookAt(camPosition, camLookAt, Vector3.up);
 
         // Display(viewingMatrix);
+        // ------- Image after Viewing--------
 
         List<Vector4> imageAfterViewingMatrix = MatrixTransform(viewingMatrix, imageAfterTranslation);
 
         // Display(imageAfterViewingMatrix);
+        // ------- Image after Single Transformation --------
 
         List<Vector4> imageAfterSingleMatrix = MatrixTransform(singleMatrixOfTransformation, verts);
 
-        Display(imageAfterSingleMatrix);
+        // Display(imageAfterSingleMatrix);
+
+
+
+
+        // ------- Perspective --------
+
+        Matrix4x4 perspectiveMatrix = Matrix4x4.Perspective(100, 1, 1, 1000);
+        
+        //Display(perspectiveMatrix);
+        // ------- Image after Perspective --------
+
+        List<Vector4> imageAfterPerspective = MatrixTransform(perspectiveMatrix, imageAfterViewingMatrix);
+
+        // Display(imageAfterPerspective);
+        // ------- Final --------
+
+        Matrix4x4 finalMatrix = perspectiveMatrix * viewingMatrix * singleMatrixOfTransformation;
+
+        // Display(finalMatrix);
+        // ------- Image after Final --------
+
+        List<Vector4> imageAfterFinal = MatrixTransform(finalMatrix, verts);
+
+        Display(imageAfterFinal);
 
     }
 
