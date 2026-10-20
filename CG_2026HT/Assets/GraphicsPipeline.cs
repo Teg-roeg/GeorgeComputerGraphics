@@ -98,7 +98,7 @@ public class GrapchicsPipeline : MonoBehaviour
 
         List<Vector4> imageAfterFinal = MatrixTransform(finalMatrix, verts);
 
-        Display(imageAfterFinal);
+       // Display(imageAfterFinal);
 
     }
 

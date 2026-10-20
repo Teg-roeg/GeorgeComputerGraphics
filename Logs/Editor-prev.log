@@ -1,0 +1,997 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 32454 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-20T13:41:30Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-StudentGeorgeTolkach" at "2026-10-20T13:41:30.4119697Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24700, path: "C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-StudentGeorgeTolkach"
+[Licensing::IpcConnector] LicenseClient-StudentGeorgeTolkach channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-StudentGeorgeTolkach-6000.5.9 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 13516)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-StudentGeorgeTolkach-6000.5.9" at "2026-10-20T13:41:37.1185717Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 13516, path: "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-projectpath
+C:\Users\StudentGeorgeTolkach\Desktop\CG
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-StudentGeorgeTolkach
+-hubSessionId
+76e4c34c-6855-41d2-825d-7baf0ec02a76
+-accessToken
+m4eYqR6oT_Lw5rOQA2aWdn16_KMjMYmNeoOAQtGRHMs005f
+Successfully changed project path to: C:\Users\StudentGeorgeTolkach\Desktop\CG
+C:/Users/StudentGeorgeTolkach/Desktop/CG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [6344]  Target information:
+
+Player connection [6344]  * "[IP] 10.5.37.209 [Port] 55504 [Flags] 2 [Guid] 3303802253 [EditorId] 3303802253 [Version] 1048832 [Id] WindowsEditor(7,T300-KY-9BJ2Z44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6344]  * "[IP] 192.168.112.1 [Port] 55504 [Flags] 2 [Guid] 3303802253 [EditorId] 3303802253 [Version] 1048832 [Id] WindowsEditor(7,T300-KY-9BJ2Z44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6344]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 3303802253 [EditorId] 3303802253 [Version] 1048832 [Id] WindowsEditor(7,T300-KY-9BJ2Z44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6344] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              cd504a7b4a5a4cc590d661765aaff03d
+  Correlation Id:          6b495baa12e1ad7880f5da9a1af59fb9
+  External correlation Id: 3655126544788748329
+  Machine Id:              JYuJSm95R5XCbgGYYMoSWSbENF8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-StudentGeorgeTolkach-6000.5.9" (connect: 6.56s, validation: 0.86s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-StudentGeorgeTolkach-6000.5.9-notifications" at "2026-10-20T13:41:37.985998Z"
+[Licensing::Module] Connected to LicensingClient (PId: 13516, launch time: 0.09, total connection time: 7.42s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token m4eYqR6oT_...
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773050983240-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 7.64s
+[Package Manager] Connected to IPC stream "Upm-19696" after 0.0 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 55 unused hashed content files
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/StudentGeorgeTolkach/Desktop/CG/Assets
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: AMD Radeon RX 6500
+[D3D12 Device Filter] Driver Version: 32.0.21036.18
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 4051 MB
+[D3D12 Device Filter] Processor Count: 28
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 6500 (ID=0x743f)
+    Vendor:          ATI
+    VRAM:            4051 MB
+    App VRAM Budget: 3444 MB
+    Driver:          32.0.21036.18
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Registered in 0.204655 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.799 seconds
+Domain Reload Profiling: 6070ms
+	BeginReloadAssembly (285ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (3ms)
+	RebuildNativeTypeToScriptingClass (238ms)
+	initialDomainReloadingComplete (350ms)
+	LoadAllAssembliesAndSetupDomain (1393ms)
+		LoadAssemblies (317ms)
+		AnalyzeDomain (1282ms)
+			TypeCache.Refresh (1281ms)
+				TypeCache.ScanAssembly (1209ms)
+	FinalizeReload (3799ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (478ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (3102ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Done resolving packages in 1.14 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 37 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\StudentGeorgeTolkach\Desktop\CG\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+AcceleratorClientConnectionCallback - disconnected - :0
+[ScriptCompilation] Requested script compilation because: Assembly Definition File(s) changed
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\StudentGeorgeTolkach\Desktop\CG
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 510.9464ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/StudentGeorgeTolkach/Desktop/CG
+ExitCode: 4 Duration: 2s241ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[174/183    2s] MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm
+*** Tundra requires additional run (2.04 seconds), 1 items updated, 173 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/StudentGeorgeTolkach/Desktop/CG
+ExitCode: 0 Duration: 14s
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/StudentGeorgeTolkach/Desktop/CG
+ExitCode: 0 Duration: 30s
+Finished compiling graph: 186 nodes, 714 flattened edges (702 ToBuild, 4 ToUse), maximum node priority 24
+[171/183    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2
+[172/183    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.UnityAdditionalFile.txt
+[173/183    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp2
+[174/183    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.UnityAdditionalFile.txt
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll (+2 others) [CacheMiss 8abe2425a83b6d7bec0df12a6d4747c600000000000000000000000000000006]
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll (+2 others)
+[BUSY      16s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll (+2 others)
+[BUSY      26s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll (+2 others)
+[175/183   26s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll (+2 others) [CacheWrite 8abe2425a83b6d7bec0df12a6d4747c600000000000000000000000000000006]
+[177/183    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.pdb
+[178/183    0s] MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll.mvfrm
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others) [CacheMiss 111685174826c5adc3caffcbac5ca9eb00000000000000000000000000000006]
+[179/183    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll
+[180/183    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others) [CacheWrite 111685174826c5adc3caffcbac5ca9eb00000000000000000000000000000006]
+[181/183    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.pdb
+[182/183    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll
+*** Tundra build success (30.55 seconds), 11 items updated, 183 evaluated
+Total cache size 238252
+Total cache size after purge 238252, took 00:00:00.0117568
+AssetDatabase: script compilation time: 54.941431s
+Begin MonoManager ReloadAssembly
+Importing 'GUID: 00000000000000002000000000000000 - Path: ProjectSettings/InputManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000002000000000000000' -> (Import Result ID: '45032be8569916cb65c996925f1ba147') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=0290babc70dea6fa2c98f564a251f1f8 DependenciesID=3ea13ae02a79b8dcf5a35505bf79e80c StaticDependenciesID=8bc64289529315e850faaa44a5a7374e 
+Importing 'GUID: 00000000000000003000000000000000 - Path: ProjectSettings/TagManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000003000000000000000' -> (Import Result ID: 'ba1b27934fdb96e3ce5d3bdb304c38c5') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=fd6696bcbef029973bb12ace65e33982 DependenciesID=bef2dac826f4d9d5bd1b7ef5c02385c1 StaticDependenciesID=5d36d30b8e528413e1d955f3a6779130 
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: 'b5f7f48bfb5fa8c3d26b5f99094924be') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=29d7da7f646d1c71abfccc8fba93b26e StaticDependenciesID=1530e6e6b6a2215536d23052415e860b 
+Importing 'GUID: 00000000000000006000000000000000 - Path: ProjectSettings/AudioManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000006000000000000000' -> (Import Result ID: '6ad7773512085a1e27e25df8b4903a52') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=acca44841ee8003c72d524064efb6e35 DependenciesID=bb6209e7343875ac3a5060bf115c8c36 StaticDependenciesID=0ab9b3d7f24c5af4621c2909c5fdbe49 
+Importing 'GUID: 00000000000000007000000000000000 - Path: ProjectSettings/TimeManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000007000000000000000' -> (Import Result ID: 'a7b05c8612f0a13a6c0d5c5956137829') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=bcbe57e6eed4f14d697ceae3e9a4ee48 DependenciesID=42d898252bc60d9e3b956750a02e1e62 StaticDependenciesID=1459fc136864da15cb4f00319cb42e92 
+Importing 'GUID: 00000000000000008000000000000000 - Path: ProjectSettings/DynamicsManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000008000000000000000' -> (Import Result ID: '26b60a95872608ffe5800117c702c337') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=af765d07e318cf68f695edacf91778bd DependenciesID=d6f69bcbf2f80b0131bb55fa1e569258 StaticDependenciesID=fb56983628429197fdcbec9196a4eb39 
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: 'f132cd32e8d08a0b705fa255e52702cc') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7b12711da11c94ad897442b4820d3f7b DependenciesID=7d885647e6a3dfd123a4d2828d2dd86b StaticDependenciesID=77af1d5f7eebacc50589ee4c7ef17fec 
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: 'db9587f6e00bba6a91ac929c35b4cfc7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4647dd083cfc32cebcd7526e8846440c DependenciesID=81acded7920257294823eb0d09b592e0 StaticDependenciesID=9d1182a2265181c12f01ae4a4329d69e 
+Importing 'GUID: 0000000000000000c000000000000000 - Path: ProjectSettings/EditorSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000c000000000000000' -> (Import Result ID: 'a4f5fd94a283d2966a146c5dbf75b620') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=fc08cc28cef36a03227c22ef67b54535 DependenciesID=5a5ae7705cad11a2b64a5af94b5ee09c StaticDependenciesID=2786f08c2416ee5d9a36c6da4ef44448 
+Importing 'GUID: 00000000000000004100000000000000 - Path: ProjectSettings/NavMeshAreas.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004100000000000000' -> (Import Result ID: '4f09b335331606526092153c617feb23') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=90afd57cd2fd79df9534381ff5673272 DependenciesID=ddc1a51c5b8c338523393a6a822e88a2 StaticDependenciesID=2992f86d484ab07b045285c9b00597b2 
+Importing 'GUID: 00000000000000005100000000000000 - Path: ProjectSettings/Physics2DSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000005100000000000000' -> (Import Result ID: '52505acd81af06e53455bf4f84ab5dcc') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=51a8098361d5b0c1ab07bfc06e51f152 DependenciesID=c891a6ce28cf29e83649184743f950bb StaticDependenciesID=6b2969880e95a330e78683c9d2460ce8 
+Importing 'GUID: 00000000000000006100000000000000 - Path: ProjectSettings/GraphicsSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000006100000000000000' -> (Import Result ID: '6f37fa0c10617cf825a2edd6d39757c4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f9600466f06a676b7a4f639f6629ea48 DependenciesID=a0da878ab215a42a44068b10b195b03c StaticDependenciesID=4d8ab68181d87fd248a606456bae67d9 
+Importing 'GUID: 00000000000000007100000000000000 - Path: ProjectSettings/ClusterInputManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000007100000000000000' -> (Import Result ID: 'fa34f992a25fe160c8e79ed97737c6e1') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=8ce0cedd10b8cd8471ed9838bfc872ed DependenciesID=10399e64a96b54dec80d32c113b19592 StaticDependenciesID=71ccd970ad3ca52ec0635967e47b24c2 
+Importing 'GUID: 0000000000000000a100000000000000 - Path: ProjectSettings/UnityConnectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000a100000000000000' -> (Import Result ID: '06daccbf355c502172cf03750074d8c2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1989c27f310e62ee2c72d63f16a698d0 DependenciesID=c955a29b2625df585a920dce38150194 StaticDependenciesID=60675f425f460234564a764ffd2e6263 
+Importing 'GUID: 0000000000000000b100000000000000 - Path: ProjectSettings/PresetManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b100000000000000' -> (Import Result ID: 'a2ea5fff6b675178db921a808a64a3c9') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d271a469f14af9d29dbd89abc966f7ef DependenciesID=f4dcc3d37434f73c0bd6b4df3acf0a96 StaticDependenciesID=c24faacacc55bc0836190581ceff7553 
+Importing 'GUID: 0000000000000000c100000000000000 - Path: ProjectSettings/VFXManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000c100000000000000' -> (Import Result ID: '41edb9db788ad85b260143278e659079') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d5b1cc1b236d3087c4a5fc9e9cb18618 DependenciesID=fa99348cf191e751503741591389439a StaticDependenciesID=c83ce3f3045ec37dc23848345cd88808 
+Importing 'GUID: 0000000000000000d100000000000000 - Path: ProjectSettings/VersionControlSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000d100000000000000' -> (Import Result ID: '4d50e4eb7d3683dbf9d4bca5322b9dd6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=0a19189542c4b1aa9afad4d76b36cbef DependenciesID=de738cc9522d42bcdd5921eceb6d5019 StaticDependenciesID=499983c2937f6f7adaaa4516b312ed3c 
+Importing 'GUID: 0000000000000000f100000000000000 - Path: ProjectSettings/MemorySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000f100000000000000' -> (Import Result ID: '2539dd150260cebeee675a33e897ec1a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=078c9215d0d3f7dcc6c2ea9c2e21e93e DependenciesID=8a4624b23a17a26ce51b1d1c7717acb2 StaticDependenciesID=2e3d6b1aac7237d03b85dfd087edf59c 
+Importing 'GUID: 00000000000000000200000000000000 - Path: ProjectSettings/MultiplayerManager.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000000200000000000000' -> (Import Result ID: '88bb1aae4a4d04eb869cafb36babbcfb') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=cc8bc420ff0fb13a9534be625b324364 DependenciesID=ced8cb70474ad1ed11a11a441a1758a7 StaticDependenciesID=ebab9f9da56d4fc4f8cc679d77a7b00a 
+Importing 'GUID: 00000000000000001200000000000000 - Path: ProjectSettings/PhysicsCoreProjectSettings2D.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000001200000000000000' -> (Import Result ID: '739b9bc8b0bd35443d62350224601af0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=07b8874da21d0d67c4347d012422ba62 DependenciesID=ed34aa1597041227cabc7751589d2ba9 StaticDependenciesID=d29c100fb367a0e739d692ed07bb8dbf 
+Importing 'GUID: 72aad6ae0dafb492cbf852432441bb38 - Path: Packages/com.unity.multiplayer.center/Editor' with importer (DefaultImporter)
+Imported 'GUID: 72aad6ae0dafb492cbf852432441bb38' -> (Import Result ID: 'fb030517bcf26208be52f579038ecfb2') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=fd813adfe6f53e0e5a3fd1bde50dd9b3 DependenciesID=2de2edb1a8f18f95679d3ee285a40c3b StaticDependenciesID=f45e558311e0862ab9f27999d8100c9f 
+Importing 'GUID: f247964bd405431fbd31840f97bef608 - Path: Packages/com.unity.multiplayer.center/Common' with importer (DefaultImporter)
+Imported 'GUID: f247964bd405431fbd31840f97bef608' -> (Import Result ID: 'e37924fe8e5b460d3cec6fbdd254b883') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=758923f3b917a744e934a49667168e4f DependenciesID=4c78adb4832146bc5996bdc7205cd50d StaticDependenciesID=bfa7b8998f837885fae622c10fd47d3c 
+Importing 'GUID: baf75c9d3de4941df9ee5f3dd1d3bc34 - Path: Packages/com.unity.multiplayer.center/Tests' with importer (DefaultImporter)
+Imported 'GUID: baf75c9d3de4941df9ee5f3dd1d3bc34' -> (Import Result ID: '0025c8a1f141f05f1b4bf13c58dcae90') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=472be40ede228cb93594a902416e88d6 DependenciesID=af85ffa829c939192d48cddd5376d59e StaticDependenciesID=8cfd6437e7941b137f710d375cb0ce04 
+Importing 'GUID: 21f32d2f4add49b3b11fadb6889a2156 - Path: Packages/com.unity.multiplayer.center/Editor/Analytics' with importer (DefaultImporter)
+Imported 'GUID: 21f32d2f4add49b3b11fadb6889a2156' -> (Import Result ID: '7bbd45822711295a7b263bd349bc3a31') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=7627045f4445b3bccda132ac184a65c4 DependenciesID=2de63cb27caf07b8ca071cfd7cc37a8a StaticDependenciesID=3da8488f1ad1ef4004add2e7770dc22a 
+Importing 'GUID: 22d3dbf8d488d49d2b1130d698010dee - Path: Packages/com.unity.multiplayer.center/Editor/Features' with importer (DefaultImporter)
+Imported 'GUID: 22d3dbf8d488d49d2b1130d698010dee' -> (Import Result ID: '8ca5b9235feccfc507581773a43dd875') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=fb074caa7d2abd29e270db3a9b71e3a9 DependenciesID=ca6ba0980697b367f49f5ed6b24b0643 StaticDependenciesID=7fd58fecead2908297cd7dc476a7a634 
+Importing 'GUID: 96c71b811fa50403690b154e216fe217 - Path: Packages/com.unity.multiplayer.center/Tests/Editor' with importer (DefaultImporter)
+Imported 'GUID: 96c71b811fa50403690b154e216fe217' -> (Import Result ID: 'c0b51ecd61dabc356a8c99a0647ac375') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c9c8f2de7834bb2ffb0da4bb4f2955fa DependenciesID=848af059305d827689a3c33306089f4a StaticDependenciesID=caf0d0cd234879151463acbfffaebf20 
+Importing 'GUID: 1726448925bf4bd1af6ca883bae8ff3f - Path: Packages/com.unity.multiplayer.center/Editor/OnBoarding' with importer (DefaultImporter)
+Imported 'GUID: 1726448925bf4bd1af6ca883bae8ff3f' -> (Import Result ID: 'efb34899f6fd20f1137ff12eab5ba19a') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=14950a62abf6548e54801ab788e1f49c DependenciesID=e80bb2dd83b02b0305596d13393cc06d StaticDependenciesID=9b8106fdc159bc5b024c06c9d9d41c20 
+Importing 'GUID: 97646f506bf040e9bd4568124c8b425e - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations' with importer (DefaultImporter)
+Imported 'GUID: 97646f506bf040e9bd4568124c8b425e' -> (Import Result ID: '3f47832ccb2616a4e9846b741d764b05') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=56d8246ba8918c014e8884d34d60ce31 DependenciesID=b5b036e5d299cbd04ffc6de8ab1ec0fc StaticDependenciesID=bd2e9c695c294e100e525606551bad2e 
+Importing 'GUID: a7f089ed51c2345ffb7ac0bc3562453f - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire' with importer (DefaultImporter)
+Imported 'GUID: a7f089ed51c2345ffb7ac0bc3562453f' -> (Import Result ID: '46535e6ee4645a1fe62367d31bd76b34') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=961ee9ffe5dc2d5b9b5d9f6c51e99710 DependenciesID=2739b8a2e9cd241620bad0fa36428734 StaticDependenciesID=f96c79aa363239fb46df5e28aab82ae6 
+Importing 'GUID: 7a7dcde6448847648629a13d746ce966 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow' with importer (DefaultImporter)
+Imported 'GUID: 7a7dcde6448847648629a13d746ce966' -> (Import Result ID: '6bc1fd5e34997dc5191d8eecd969d3e2') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=f055dd0afc5a900e3f0e5d75be0487c5 DependenciesID=1c1809fedd8c3360f067e0aa510d9e52 StaticDependenciesID=3ba75d7ffeba0ef9303500e6951e5442 
+Importing 'GUID: 8e4d240cf158245a9945c4df01d83bc1 - Path: Packages/com.unity.multiplayer.center/Tests/Runtime' with importer (DefaultImporter)
+Imported 'GUID: 8e4d240cf158245a9945c4df01d83bc1' -> (Import Result ID: 'f8e2b41fad596743f8642d3cdb87939f') in 0.023 seconds [static dependencies only]. Details - ImportResultOutputID=8d471bf8668065aa423a9a6138166117 DependenciesID=93e112160c5252ccff7c373efa008dac StaticDependenciesID=d2175d954dbfc9a2217a6c9c3191bc28 
+Importing 'GUID: 9bd34ec3fe8f4aed936c3a0cf2f32e56 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI' with importer (DefaultImporter)
+Imported 'GUID: 9bd34ec3fe8f4aed936c3a0cf2f32e56' -> (Import Result ID: '1ce12def89cf7ec3aaff248fcaf2e04c') in 0.016 seconds [static dependencies only]. Details - ImportResultOutputID=ccc1a09d4a030f52c953d2f3937aac55 DependenciesID=e88f075fcc796acf52bfe8c7dec4db73 StaticDependenciesID=99b6a48cfa60e7124bd754fe82a9df50 
+Importing 'GUID: 34a09eb4d6e8d44989194a25525c5147 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons' with importer (DefaultImporter)
+Imported 'GUID: 34a09eb4d6e8d44989194a25525c5147' -> (Import Result ID: '744ef621515aab24880ca9f9eb3930a3') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=09fc5dce3344b58f3587b00bf4b13d7d DependenciesID=c61013c79046ff766f958f51f052c832 StaticDependenciesID=ce01442c43cdb23a33a5927483f3a6cf 
+Importing 'GUID: eab7f42d361b483aaa760c5909002312 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView' with importer (DefaultImporter)
+Imported 'GUID: eab7f42d361b483aaa760c5909002312' -> (Import Result ID: '4d2fd0dedaceb9d72a084c9e937a7b0d') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=378cb1e8c5b18b814304dca778da9b61 DependenciesID=32f5ed89e8ba5abd54d7e26b44c7343a StaticDependenciesID=46d3d0ecaab25d7ea12565634ee0bb28 
+Importing 'GUID: 84abd2ab34a74600a33a3bb9d72859fe - Path: Packages/com.unity.multiplayer.center/Common/Unity.Multiplayer.Center.Common.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: 84abd2ab34a74600a33a3bb9d72859fe' -> (Import Result ID: '34a525683b46bdc70778f2109a0dffc6') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=074c7bcbf4704bfd191b80587115b786 DependenciesID=411441f6aed07f77792c63b4bc178475 StaticDependenciesID=5b2941d54a6e3a737315cd9e7dcb53a1 
+Importing 'GUID: 2664430aff4254d79887d32c3fc1e221 - Path: Packages/com.unity.multiplayer.center/Tests/Runtime/Unity.Multiplayer.Center.Tests.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: 2664430aff4254d79887d32c3fc1e221' -> (Import Result ID: '212825644c26d04a91e045efdff8ae09') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=6aed226e9e8d25d5f11c10c40c3b3338 DependenciesID=61c77f3b37709e2b84ba8380b96bfb6f StaticDependenciesID=b0f109e6cbcd4e694bb97054649f4b4a 
+Importing 'GUID: 787ec048daec145b580d1134da5dd278 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/Unity.Multiplayer.Center.Editor.Tests.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: 787ec048daec145b580d1134da5dd278' -> (Import Result ID: 'f5c7269672b2b815b129e89f6f65d186') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=2b4a75fdc4ab9b176ff99a8a03c6ced0 DependenciesID=73ff8d0664e1ca1fe4b92bd27fbac6ff StaticDependenciesID=829a05023fb3db660ec83d0c520b6a9b 
+Importing 'GUID: be17709716f1648caa5de6d0c38103ed - Path: Packages/com.unity.multiplayer.center/Editor/Unity.Multiplayer.Center.Editor.asmdef' with importer (AssemblyDefinitionImporter)
+Imported 'GUID: be17709716f1648caa5de6d0c38103ed' -> (Import Result ID: '3a5fdef490baaab791b93b698820c0b3') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=f1b57a95e9481ee41c681b783de65d2d DependenciesID=ec51c3b718f5df2c74502375d221be3c StaticDependenciesID=ce29abe16bc91e069126d8c88d60d6cb 
+Importing 'GUID: 51fa60bb2bd1e5bc74e8cc95a7bfd5b7 - Path: Packages/com.unity.modules.ui/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 51fa60bb2bd1e5bc74e8cc95a7bfd5b7' -> (Import Result ID: 'b0d536e5cd1b1b3ab8c5ce6566ea3995') in 0.033 seconds [static dependencies only]. Details - ImportResultOutputID=97b097896283fafd162f5103b6da9350 DependenciesID=8ca764620189d2441b098fbbadb57f1a StaticDependenciesID=dd85dc00e202f47ae0c17694598c70e9 
+Importing 'GUID: 71136fc5cf34f2cc10be0e33c0b08019 - Path: Packages/com.unity.modules.unityanalytics/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 71136fc5cf34f2cc10be0e33c0b08019' -> (Import Result ID: '7cbb8b5b599a8c70dd0d22de14c44d92') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=aad00463857b0f3e239972e5a10e3f79 DependenciesID=fb9eaba82895d1b90a527b2f7c6493fb StaticDependenciesID=dc19fc44d4f6ff2237fde2f8e1258cbb 
+Importing 'GUID: a1c42005fe7c5d78585a77ce396a5eea - Path: Packages/com.unity.modules.tilemap/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: a1c42005fe7c5d78585a77ce396a5eea' -> (Import Result ID: 'e38df15b292321c1fafdfdb1bf0aa1cf') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7c7d529048f5d74f6d499dae097a185f DependenciesID=88759a48cb49b0f2903bb2134c0aa835 StaticDependenciesID=1010d21f3bb2b09eb289e5e829804712 
+Importing 'GUID: d104359075a97392b803d3d5aebc77f7 - Path: Packages/com.unity.modules.hierarchycore/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: d104359075a97392b803d3d5aebc77f7' -> (Import Result ID: '061634affaf9bd7696da45a43c1bf946') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=8ec3343e917ef007d455acfe45d3ee72 DependenciesID=d9e1ff46f7d235e6cb6fbac2f61906d7 StaticDependenciesID=c5ca8d8a5cff79fb9d2cdcdf0f3eb74d 
+Importing 'GUID: 222fc39b0c85d800342910da2cd64781 - Path: Packages/com.unity.modules.assetbundle/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 222fc39b0c85d800342910da2cd64781' -> (Import Result ID: 'f84b1900a6f67b53494d28a056e16e82') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a4749f3da6b6adf8eaabf6e5477b2b7c DependenciesID=c1a0642bec2b489bb8cdf87d9311d56b StaticDependenciesID=520d9b01b3bc6a7381f74aff4ca9d4a4 
+Importing 'GUID: d2ec2d1228c8e67cdd913cb5609176a2 - Path: Packages/com.unity.modules.unitywebrequest/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: d2ec2d1228c8e67cdd913cb5609176a2' -> (Import Result ID: 'fb5a312e778f86aea67dccd543b8b58c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=37747859ed12efda2a92d3d840e79b06 DependenciesID=5ed3489d1cd8920001212fe3f6eca8bb StaticDependenciesID=9e8f4fe82a8bde2647c4744a342264d8 
+Importing 'GUID: e2d09a26ce46dc617b54e49a534ace20 - Path: Packages/com.unity.modules.ai/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: e2d09a26ce46dc617b54e49a534ace20' -> (Import Result ID: 'daf43aab61e402b4d3cc586a755728b0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=01c973ad27769bdd61dcc3de2d8629ac DependenciesID=25af9af5d39caa4a2bbb91423dbb13b4 StaticDependenciesID=b351cbc00809089ea9bf35681499244c 
+Importing 'GUID: 23032f4383e95e772bce465c5896d0fd - Path: Packages/com.unity.modules.terrain/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 23032f4383e95e772bce465c5896d0fd' -> (Import Result ID: '6789e8ba4b5bd2f1529e27f75136ea9a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=43caf76539e87b0b5e506fce22b32e8c DependenciesID=2fde2f7aa7c5131282aae418dde32c8a StaticDependenciesID=2b0fc932dfa436b439996e1449932b83 
+Importing 'GUID: 830a36a23cf3ab1e61fa47940a6dc35e - Path: Packages/com.unity.modules.imageconversion/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 830a36a23cf3ab1e61fa47940a6dc35e' -> (Import Result ID: '718bffd3820e39c5250df4db4cc585b7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1312c79305670b6aa3bce9ff3efd03b9 DependenciesID=6d6bbd4961b904e885339baf3fbc01ae StaticDependenciesID=a89a91ffa568a857f80b67e22780b636 
+Importing 'GUID: a31a332ce3485f00f7df8d987302a29c - Path: Packages/com.unity.modules.unitywebrequesttexture/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: a31a332ce3485f00f7df8d987302a29c' -> (Import Result ID: 'd7f62e4df4ce8af3a724e139e09ed4ae') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=54d1731c77f760b5355a2b1bfa92527b DependenciesID=31eda14852276aed264c618df7937609 StaticDependenciesID=3b1f0fe0c3adde65be1cf3949be055e3 
+Importing 'GUID: 042dc296246916648e55a43d0eeb2036 - Path: Packages/com.unity.modules.audio/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 042dc296246916648e55a43d0eeb2036' -> (Import Result ID: 'a56a8dd1a8671806e9b812c17a0a936a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ab0921e937c1d9c2d7fbdebe7091d6c2 DependenciesID=698197d1abf49056f7208925c09f3646 StaticDependenciesID=859879f1da92d94c72c9a587b0945375 
+Importing 'GUID: 14e86f88e9a8c9c448d7e7df92f2aeec - Path: Packages/com.unity.modules.physicscore2d/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 14e86f88e9a8c9c448d7e7df92f2aeec' -> (Import Result ID: '8584853c9fe022917b755eee377c7d43') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=94d25b776bc28f679880cb17bd31ec6c DependenciesID=3a4528cd976dbc6be6c0f81a5a88b953 StaticDependenciesID=eaf008bf98880c379489b7bdbfcc7a92 
+Importing 'GUID: 553737203d61a8109f9544a97201e1aa - Path: Packages/com.unity.modules.unitywebrequestaudio/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 553737203d61a8109f9544a97201e1aa' -> (Import Result ID: 'c65034b7ffd07458fd62793d7233fc98') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ab514c5cded186b91986c4c830fcf71c DependenciesID=a1e4cb7de526d83c74d7664f351d7ddf StaticDependenciesID=798e60e5fd8dce2cc1f0e8bc0b2c62cc 
+Importing 'GUID: e5c46c19ce0ce2e0103aa6f82df1043a - Path: Packages/com.unity.modules.vehicles/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: e5c46c19ce0ce2e0103aa6f82df1043a' -> (Import Result ID: '0dd37a234082ed71d72065cd302676db') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7ed92368dde83c4f4274e94d1167c911 DependenciesID=45e081820ba7d33c2969e8ac898af3db StaticDependenciesID=9ed4dc3e9627e92c3236dca2a2efc127 
+Importing 'GUID: 7610600f5c83e01041a6fe849d39279f - Path: Packages/com.unity.modules.unitywebrequestassetbundle/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 7610600f5c83e01041a6fe849d39279f' -> (Import Result ID: 'd8bd667444e4131d7030ccb0e589dd10') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=8003247251fb87c113fccdf168b06d46 DependenciesID=ee37bf9c3f20b0bbff1caa13f4a28f9a StaticDependenciesID=507cda98852ab474750b5dd6669a694b 
+Importing 'GUID: e6a135e3ea9cb46795d1b0e05ac3e1e5 - Path: Packages/com.unity.modules.jsonserialize/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: e6a135e3ea9cb46795d1b0e05ac3e1e5' -> (Import Result ID: '6c76257a0725cedcc16bfa8ad2a7b410') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=16fe18d7d4fb3289b89d1d866fdd26db DependenciesID=ceba41809e0ffa73925e2e05259f5520 StaticDependenciesID=68bb631db066aac3cc43a556a8703f15 
+Importing 'GUID: f62135e79edb837b2d2ee3c524da864c - Path: Packages/com.unity.modules.video/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: f62135e79edb837b2d2ee3c524da864c' -> (Import Result ID: '773dc4a7c4aa0ad8b3fc7c51c019c85a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f343425462c7ecc24009b61dff957b85 DependenciesID=9b30c7f7c34487faab3bec8de2f8eba5 StaticDependenciesID=fdb02fdf44fb197de8ee5511103ba301 
+Importing 'GUID: 17f093324b67f5bd57e55b546736750e - Path: Packages/com.unity.modules.particlesystem/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 17f093324b67f5bd57e55b546736750e' -> (Import Result ID: 'd770ecec7ea3b6be529be89f93f592b7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=0355b1352b2efc29f8c3d4c7ae63c7f1 DependenciesID=906297481d3bc56bb08d18bd75454ef8 StaticDependenciesID=5bb12e57ddd7977a01bbf6be54a4736e 
+Importing 'GUID: 4745d06d5a7ca576dcf9e5e67b417652 - Path: Packages/com.unity.modules.accessibility/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 4745d06d5a7ca576dcf9e5e67b417652' -> (Import Result ID: '92de55bc432a36b3199fd35ccb76c4ad') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=532470ed0227c311b25c8c9e8ba79400 DependenciesID=eedb7bd77523cfac015e915b47e76385 StaticDependenciesID=bf43138abdf09617ef3b3be41da33a53 
+Importing 'GUID: c7a8b0317f4e68556d7509828e9e211e - Path: Packages/com.unity.modules.xr/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: c7a8b0317f4e68556d7509828e9e211e' -> (Import Result ID: '4b6ad33b3987a3a5516503a2918bab81') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ae1b559a8646648d57c418658f22c1c3 DependenciesID=f2731b08de550bddc4acc83fb21ade95 StaticDependenciesID=ff8e92c5143b5d16811bc3ad1513b69f 
+Importing 'GUID: 082fbee38a82835433261a5e9c00e267 - Path: Packages/com.unity.modules.cloth/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 082fbee38a82835433261a5e9c00e267' -> (Import Result ID: '320ac6c25831aedc881c74c507d34307') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4484322f1fd307127a580e9b17cedb30 DependenciesID=2fdf26f9925cb34d92a81bcf0295a148 StaticDependenciesID=7dba398a0ac16289e48f8d6f4cc26eca 
+Importing 'GUID: c82e859b16636ddd2ca4a1f63fd34938 - Path: Packages/com.unity.modules.androidjni/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: c82e859b16636ddd2ca4a1f63fd34938' -> (Import Result ID: 'd7356ea22b9f25cde249e0f593a815ee') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6a7f1eafcdb81a627586a74a505019b9 DependenciesID=1171fd52ab111da7dfb4ad980ad9681b StaticDependenciesID=07590b9dc491a512eac7c52bf7ed14d4 
+Importing 'GUID: c88e90bad18cceb5d182d0c805883056 - Path: Packages/com.unity.modules.director/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: c88e90bad18cceb5d182d0c805883056' -> (Import Result ID: '6fad5b0d469a17343f1ff3a34aa78661') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=5d286ef98cbac13e3d0e345aac901e4f DependenciesID=48788f76a6fc43a0ceb45a61d682a15d StaticDependenciesID=977339060ddb20a2ced092a78eb49f8a 
+Importing 'GUID: 1af35a910338381f753e8a985eb5daab - Path: Packages/com.unity.modules.adaptiveperformance/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 1af35a910338381f753e8a985eb5daab' -> (Import Result ID: '6ba94a99cd65a7d9a07451e69f032075') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=949634ab36822f8ff6168fc8c25e1508 DependenciesID=0e6a3345d7e631e6fc1523c75e51f486 StaticDependenciesID=76982e36179defd28d6ddcb04cc8bf97 
+Importing 'GUID: 2adec19fac7df68adf1fd6eb83197bb1 - Path: Packages/com.unity.modules.wind/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 2adec19fac7df68adf1fd6eb83197bb1' -> (Import Result ID: '8faecd89edf049ca206f32ee6c378673') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d94addc5fcd1dcd16d8a4aeff6e7315b DependenciesID=10259a9856bc11af8716ec6bc019c809 StaticDependenciesID=c9c2a2600b8b9a3a020d508156fa6679 
+Importing 'GUID: 8a752aaaadd2410dd9a84e01c1bace9f - Path: Packages/com.unity.modules.uielements/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 8a752aaaadd2410dd9a84e01c1bace9f' -> (Import Result ID: '6d7cd505b7b3604dc5b8b38b8b4abb24') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f40b7d6a35d44b9d0813e881de9232d1 DependenciesID=3f7991a426ccbef3f3fc8696f70c3aee StaticDependenciesID=0cdeb7792817780e9decf6939667983f 
+Importing 'GUID: 1b6246f2248883964991eac9e9b4817c - Path: Packages/com.unity.modules.umbra/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 1b6246f2248883964991eac9e9b4817c' -> (Import Result ID: '25315e6adc3ea308e7a0c5960974112e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=007489b112d859d85ac111b51d2b96fd DependenciesID=f66237d5e42891815a094073a386acc6 StaticDependenciesID=88ebe97e7f6b5c45452b03ce35a4ad40 
+Importing 'GUID: cbb1a39d56ce4d9ac1a46ac505893fa7 - Path: Packages/com.unity.modules.terrainphysics/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: cbb1a39d56ce4d9ac1a46ac505893fa7' -> (Import Result ID: '8634088eb71319407259324f8156ac29') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=62cb9b240430335886efec9a08c66b57 DependenciesID=48452d4c94e8152efadb4a7733d1b6d5 StaticDependenciesID=e08aae7e62e50f27b9f48201a8c0568c 
+Importing 'GUID: db8e609a39b9b231fccc54e5fa4cbd1b - Path: Packages/com.unity.modules.animation/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: db8e609a39b9b231fccc54e5fa4cbd1b' -> (Import Result ID: 'cf763a037104fa2a2090a4d76be52677') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=288139cac869a1d040c89eaede133db4 DependenciesID=b4176271187774c8cfd4b56d1252023a StaticDependenciesID=3a3e8dc836fa0e917e6cdbfd8411c43c 
+Importing 'GUID: 3cc1ebf2abb7fef6871ad48f499b6e21 - Path: Packages/com.unity.modules.vectorgraphics/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 3cc1ebf2abb7fef6871ad48f499b6e21' -> (Import Result ID: '69a4543f6a61924ae7ae74db77ce7f75') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a4c87958b226c4f900fbf4d18311cf6f DependenciesID=7908a57a04666fe6d199ea492e928785 StaticDependenciesID=2f4a4b94d6d6038740f903079e52754b 
+Importing 'GUID: 5c1ee4056d0ac7ad3c5a16597fcaa38a - Path: Packages/com.unity.modules.physics/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 5c1ee4056d0ac7ad3c5a16597fcaa38a' -> (Import Result ID: '24522c65d321ab010004da4d0f6a8782') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=47c1ddfb4cd3ec43bc350d5b06504d59 DependenciesID=57702b2a0fe3e5da752ec90088ebbc14 StaticDependenciesID=8242c10128fc25b2aec49aa23aadb917 
+Importing 'GUID: 8d4bc6bfa28760b29f13174d6b6ea710 - Path: Packages/com.unity.modules.subsystems/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: 8d4bc6bfa28760b29f13174d6b6ea710' -> (Import Result ID: 'd54557238f1b007f9bebf07cd9c6eeda') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=498ca2a2c24aa041ab5e98f608209a1b DependenciesID=700af138fc4380453e429947626fb2b4 StaticDependenciesID=c8bab2713b2d153b4160a1ef4078de59 
+Importing 'GUID: cd561f5f687aed43bf280c27a84f79e3 - Path: Packages/com.unity.modules.screencapture/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: cd561f5f687aed43bf280c27a84f79e3' -> (Import Result ID: '4fc0bf7c787917fc7a24be9ee296bf98') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3eb1964e8afbff2c421e099475927610 DependenciesID=ce2fa93d122198fd6236dbdbf938994c StaticDependenciesID=a1f05870b99639629f6601d04335e17c 
+Importing 'GUID: ae87256f29d9c8b50490f4caf75b2c41 - Path: Packages/com.unity.modules.unitywebrequestwww/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: ae87256f29d9c8b50490f4caf75b2c41' -> (Import Result ID: '71b1aae75168b022980b676bbb6dd582') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=79dda7a6ac07c59209ba94225ee33d24 DependenciesID=009103564339e03c59d1945793a30893 StaticDependenciesID=a5a3c6ad88b6e2bac6519617d5206336 
+Importing 'GUID: be13c398521e3c1ad21fb9da30ab2ab6 - Path: Packages/com.unity.modules.imgui/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: be13c398521e3c1ad21fb9da30ab2ab6' -> (Import Result ID: '9e060e52cd8595bdbf61ea80f21faf6c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=68bbcc9e8372c6860b60d924cb4f595c DependenciesID=91dc65fe42da9549ca2e5ac7371b679b StaticDependenciesID=743f7a56b2963a13ce416d12f011e27d 
+Importing 'GUID: fe6a6957b37b61417b457a1e0541791d - Path: Packages/com.unity.modules.physics2d/package.ModuleCompilationTrigger' with importer (DefaultImporter)
+Imported 'GUID: fe6a6957b37b61417b457a1e0541791d' -> (Import Result ID: '2f36c37d97ad0e796c1034e484aad8a2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=007ff8c01aa675f4b695ba99a36210ad DependenciesID=b1ff050c8c3c4f530336a573d00b95a6 StaticDependenciesID=9d68bf3718e8f03d530df9f0b94f8b46 
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[Licensing::Client] Successfully resolved entitlement details
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.373 seconds
+Domain Reload Profiling: 950ms
+	BeginReloadAssembly (308ms)
+		DisableScriptedObjects (110ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (178ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (27ms)
+	FinalizeReload (374ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Importing 'GUID: a659150180ae3489ba41c71780ba3779 - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire/Questionnaire.questionnaire' with importer (DefaultImporter)
+Imported 'GUID: a659150180ae3489ba41c71780ba3779' -> (Import Result ID: '3e5c83392695105f7ba22005e57d0357') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=d0013f3317022cee9d3e980e4260305c DependenciesID=e11a2120d9d6d5305ec9f55285134d7f StaticDependenciesID=cc037d5c62eb33ecc8ba790cd45c7e45 
+Importing 'GUID: b66d076cdcfe3b14388de66307a0e7ff - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommendationData_6000.0.recommendations' with importer (DefaultImporter)
+Imported 'GUID: b66d076cdcfe3b14388de66307a0e7ff' -> (Import Result ID: '5bc2b6b87855c172f9ca64640ecda7b5') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=c9abb0b20a8e8219707b06aa304df842 DependenciesID=812e00370cfe87701fecac1d90956a81 StaticDependenciesID=b29fd127e03182143ccb8f0f557dcf03 
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 318df756abab5463e9aa361360784865 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_PackageInstalled@2x.png' with importer (TextureImporter)
+Imported 'GUID: 318df756abab5463e9aa361360784865' -> (Import Result ID: '13e7745fcc706ea967fedd7b5a9dc72f') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1296fc14d78080dee006e114b5e560a9 DependenciesID=86c4d24d0797c9920de6070764cdc1a5 StaticDependenciesID=064a2153893fa7c29583d09ed8ebd47e 
+Importing 'GUID: 424a8de5def3b46dcb08edd00ad1c7bd - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/Loading.png' with importer (TextureImporter)
+Imported 'GUID: 424a8de5def3b46dcb08edd00ad1c7bd' -> (Import Result ID: 'e5b747dad55da27a9c79038242a62f52') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c7e98ebb7279b2c7a8d0fc1316b7b8e DependenciesID=9df2c13f3e39ffe24aa6ad00af5396e0 StaticDependenciesID=01bb92c8aeba2e8dc6aee3fcdc39701b 
+Importing 'GUID: 525a6cca8dd9a4d28875a8fe824710d9 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_Package.png' with importer (TextureImporter)
+Imported 'GUID: 525a6cca8dd9a4d28875a8fe824710d9' -> (Import Result ID: '390e105186d382b84b1410c3a17e60b9') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b95adf5212a27c53a9c49cb6861b188d DependenciesID=2fd0b941d96b5f6b6f01f0469ae36c02 StaticDependenciesID=17806390f1cd724522b58517a91b8d4e 
+Importing 'GUID: a23c0dd570fd44b57a03a8880002fcca - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/CloudCode@2x.png' with importer (TextureImporter)
+Imported 'GUID: a23c0dd570fd44b57a03a8880002fcca' -> (Import Result ID: '3f9182403fec834255edab34ce6676f2') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8fe9d2130f233353a35b51398ad4dc5 DependenciesID=af6306bcda84ce8baf0efd1e146ba50a StaticDependenciesID=46c79863288249f840e45a4cb27202b9 
+Importing 'GUID: b2ce704e56cc84fb3b347499263c6244 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/ClientHosted.png' with importer (TextureImporter)
+Imported 'GUID: b2ce704e56cc84fb3b347499263c6244' -> (Import Result ID: '0cb5cf6700315dea3f7d58af1efa85f2') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a389fcbd304991ef568d14db6d03dd2e DependenciesID=f5ccb2a8f5a250fce89d0e3233943f71 StaticDependenciesID=1d5df12f1741aa59140c928da4aa2a22 
+Importing 'GUID: 0354877031b64465ea7e5cafea1a2653 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/DistributedAuthority@2x.png' with importer (TextureImporter)
+Imported 'GUID: 0354877031b64465ea7e5cafea1a2653' -> (Import Result ID: '215b362e0f13beb38b6b2b4dfc4b048b') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8dbdcec0205e25d3e9e46e6a7c546bd5 DependenciesID=4982dc4be6ba316a13292018e043bc79 StaticDependenciesID=471c1f1903157de17d042d6887811503 
+Importing 'GUID: 83b28bcaaf34b4fd580114fb05d9f160 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/NGO@2x.png' with importer (TextureImporter)
+Imported 'GUID: 83b28bcaaf34b4fd580114fb05d9f160' -> (Import Result ID: '29d39a46d583563ae15b381b6efa4e43') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41b33785a073ff2cc37cfbfe1aa5ac89 DependenciesID=d755406b80ab0d5a92733943f2937f76 StaticDependenciesID=7eeba972b6ab45b4acf1c2983da65b17 
+Importing 'GUID: 0423146d9f51c4563a0f2a8200b6cd38 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/PackageInstalled@2x.png' with importer (TextureImporter)
+Imported 'GUID: 0423146d9f51c4563a0f2a8200b6cd38' -> (Import Result ID: '8906f3921be16478fd53b6c6bfd813b5') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75d9fdca5b0ad097fd1fc266f7a5032f DependenciesID=1a6db7e3519def3663393eb974b54b3e StaticDependenciesID=edf12116813cdc652622e6bc43181c38 
+Importing 'GUID: 741761e72e6f24446bd8ba03ea3d0261 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_Questionnaire.png' with importer (TextureImporter)
+Imported 'GUID: 741761e72e6f24446bd8ba03ea3d0261' -> (Import Result ID: '3d84320ea5153cc4a6e69ee73a50311f') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a995974cf1940e29b83de2777358c599 DependenciesID=499afaac7932f75b27c2b90a9066b44d StaticDependenciesID=f3095702fc015fec6a52a5ead7eb0487 
+Importing 'GUID: 84e4bbd00035e4671bf14e0380a89001 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/EmptyViewIcon.png' with importer (TextureImporter)
+Imported 'GUID: 84e4bbd00035e4671bf14e0380a89001' -> (Import Result ID: '5494d7acb9b862dd313076f0c7251852') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1a70ee04bc4fb4cce2f1b1ed726e5b0 DependenciesID=2027fd13a041271b685072740c4c3a8e StaticDependenciesID=60f2d8ca70312d8e54e843e1d286d403 
+Importing 'GUID: 9431e8221045c4af189b2fa7174b9e9f - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/PackageManager@2x.png' with importer (TextureImporter)
+Imported 'GUID: 9431e8221045c4af189b2fa7174b9e9f' -> (Import Result ID: 'bf32c575f54d88ada6b377a5c1da2a24') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6e6cf5d8e399368b4d34881282539bb DependenciesID=37f181f1662c48229bebba80b80673f7 StaticDependenciesID=9c6badd03ce2fb51e3d993d8a2a54635 
+Importing 'GUID: b58a826ca804e4c67bab4283ad5a6102 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/NoNetcode@2x.png' with importer (TextureImporter)
+Imported 'GUID: b58a826ca804e4c67bab4283ad5a6102' -> (Import Result ID: '5f91d664938a9d8f09844fefca47f9cb') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8c3f042b01a793da942d67af8f7954c DependenciesID=94d0f78ecbb921e6449ce140f86f401c StaticDependenciesID=1d6d699d6f95db2a03ffa6a33571feae 
+Importing 'GUID: 4616b2fa4acd1429e931835b80966c2a - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/PackageInstalled.png' with importer (TextureImporter)
+Imported 'GUID: 4616b2fa4acd1429e931835b80966c2a' -> (Import Result ID: 'af220fa5a6dfbd4710971c417f6a0187') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35a3ec3c147b83c6d6dff25327873f46 DependenciesID=42850a9e08603bb8b7ff2364138fbea0 StaticDependenciesID=52e510bea955a532c19a36b0c185d9b7 
+Importing 'GUID: a6fd0c627f5aa48fa81512221e70a11e - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_PackageManager@2x.png' with importer (TextureImporter)
+Imported 'GUID: a6fd0c627f5aa48fa81512221e70a11e' -> (Import Result ID: 'a59a7c3632d50e118969b2f6d3382125') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17874a51f758e7c73d45dbff3c370804 DependenciesID=439a5a7f50944e3e0b9df1277ae8c6de StaticDependenciesID=6449fa2c663fba1e6347581e9d04b81c 
+Importing 'GUID: d63245ece6d8f476c8c7ca24da9937f6 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/DistributedAuthority.png' with importer (TextureImporter)
+Imported 'GUID: d63245ece6d8f476c8c7ca24da9937f6' -> (Import Result ID: 'dadd5198411fbe4dad4687a5065febfd') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c8f36b2e7f587b3ba639c54e27415aab DependenciesID=5e65511a333b41afb8a930bc4b0b397d StaticDependenciesID=b45ec09356976bfa305ba9cffb74e75d 
+Importing 'GUID: 679f9999c6f8f497e806a2d5d0511879 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/PackageManager.png' with importer (TextureImporter)
+Imported 'GUID: 679f9999c6f8f497e806a2d5d0511879' -> (Import Result ID: '7a22de90b1a3c1e8466f634893a235b6') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7760ab96dd02970e1b517e0bdb6799e3 DependenciesID=5e82bd3ef05a3fa2be010f67aa082fa8 StaticDependenciesID=7aa016c25473dbca58c9cf60cdfff9d2 
+Importing 'GUID: 77be953cf28de42a4ad8532539fef3f5 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_PackageInstalled.png' with importer (TextureImporter)
+Imported 'GUID: 77be953cf28de42a4ad8532539fef3f5' -> (Import Result ID: '53ae165ba5b0c164fc9e96dee76f754e') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4a4464e0bccfb2503b3e95813db867a DependenciesID=2a4adc10630e12a330b59e460a652e88 StaticDependenciesID=556afb5e3144f97a8eb92bd9b8af3d40 
+Importing 'GUID: c7a38e6eccbfc49778cb8b77f594a971 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/ClientHosted@2x.png' with importer (TextureImporter)
+Imported 'GUID: c7a38e6eccbfc49778cb8b77f594a971' -> (Import Result ID: '48021d5fef6a4f98ceb54b806dbed49f') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=864d4f4ded67cf47a061e3e2e2d1ea49 DependenciesID=b8ccf1ff1265b0982b5a68b0b738a328 StaticDependenciesID=1c2b7eb603e480e38cf614f82d903261 
+Importing 'GUID: d7711b0cc806d430b8a95f1e33ec3649 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/CustomNetcode@2x.png' with importer (TextureImporter)
+Imported 'GUID: d7711b0cc806d430b8a95f1e33ec3649' -> (Import Result ID: 'bc9b85c77e581dd86c5f4f53314b6db3') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4eb6ecc4bdfe6a611fb637eec3f816c DependenciesID=63204ff8683fd3b6f0944eb6376169cd StaticDependenciesID=7eb1c3813cda58c8adc3a08437dcd628 
+Importing 'GUID: 38b78df4a34c94fa6a52c90239606ff1 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/DedicatedServer@2x.png' with importer (TextureImporter)
+Imported 'GUID: 38b78df4a34c94fa6a52c90239606ff1' -> (Import Result ID: 'f0e70347eff818afddf21cdda9c00273') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=91a216e55f136e9d77ef4b1a2a2b45a4 DependenciesID=49d5e3f720453a52b6954aae66cd4310 StaticDependenciesID=393baba0c455f2e97d3ccea3c81754a5 
+Importing 'GUID: 29395f0639574c1fbc8b729aa257fb84 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_Check.png' with importer (TextureImporter)
+Imported 'GUID: 29395f0639574c1fbc8b729aa257fb84' -> (Import Result ID: 'e3489d9bf81dbe0b808408ac6b72c82f') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c4c439731260a3a98aada8543a16f3c DependenciesID=b0a137198c32eed6d063f87aa23397ba StaticDependenciesID=8a32dc752702e886f57a0805e6357c9c 
+Importing 'GUID: 99da7b3894f364efdb5fa1443952a55d - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/NGO.png' with importer (TextureImporter)
+Imported 'GUID: 99da7b3894f364efdb5fa1443952a55d' -> (Import Result ID: '7a3a78c9af06dcab75992228f9fd937d') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da30f4b149e98284f9cb771f42f0e851 DependenciesID=6da3efd4982885636d46891df3a10964 StaticDependenciesID=7f1c8f3f0f3b766a139dc0206f2374e8 
+Importing 'GUID: e9669051ff70449b5923861e0e0b8838 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/N4E.png' with importer (TextureImporter)
+Imported 'GUID: e9669051ff70449b5923861e0e0b8838' -> (Import Result ID: '8fb2306b8fb5c423fed9ff623398585e') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c294424b4bfe74f1d909ef7c24e3306c DependenciesID=0cbe06ed064458c3ab03df8efbff47aa StaticDependenciesID=e4e2ebd7f3cc6812cc26df8d2a84dfe4 
+Importing 'GUID: 2adffcc506285402aa795dee6f3166d0 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/EmptyViewIcon@2x.png' with importer (TextureImporter)
+Imported 'GUID: 2adffcc506285402aa795dee6f3166d0' -> (Import Result ID: '0339468558a21bcb957d5e5b9c6d0089') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25e87537748d7cf1374684d39e576af8 DependenciesID=26c48bc1253a4521017dab03baf33665 StaticDependenciesID=c986aed5a17f5150747188e9e833342f 
+Importing 'GUID: dab91f148d99946e7b3c3a87ecf4b973 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_Loading.png' with importer (TextureImporter)
+Imported 'GUID: dab91f148d99946e7b3c3a87ecf4b973' -> (Import Result ID: 'd41794f2415072d09ba82f64d6085d3d') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e312013e22c5028dcc97e336f8a2858d DependenciesID=e2295ac89b93b8da7c72727b1156ffb0 StaticDependenciesID=31e901408be7dd47f7fe14cc9c24a071 
+Importing 'GUID: 1b4c88814ec6241eb8e327515399c006 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_PackageManager.png' with importer (TextureImporter)
+Imported 'GUID: 1b4c88814ec6241eb8e327515399c006' -> (Import Result ID: '1d6b73d4adaed9d3f20cf8fb544adeb8') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f18bcdb3431dae86f7d30f4cc0eba647 DependenciesID=2bae8d02528f79d3cbfb6bdcc38af4db StaticDependenciesID=b2b774bd31c03cf824ce214891218ec0 
+Importing 'GUID: 2cb589d4e01184d928bb698f06e77561 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/N4E@2x.png' with importer (TextureImporter)
+Imported 'GUID: 2cb589d4e01184d928bb698f06e77561' -> (Import Result ID: '0dc49e5305a6597f512c8e5477500b41') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5cbe716a22a032f14a8bc10565c481c5 DependenciesID=1c9623b712f7d614d9ac61a160094bd7 StaticDependenciesID=e9adc0cdd1509a7835b5b49e96c31308 
+Importing 'GUID: dce12af736e0a4a1ba35d6424f897dc9 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/CustomNetcode.png' with importer (TextureImporter)
+Imported 'GUID: dce12af736e0a4a1ba35d6424f897dc9' -> (Import Result ID: 'efc1264e6a1d0cb9e279325aaffdf092') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=636fc4e7bc9b0a961822cf92da3a38b1 DependenciesID=b5cfac75e217c1d401a3d8c713b165a6 StaticDependenciesID=3e07d9d91ec53de772efe2ea6195a320 
+Importing 'GUID: 1daed49eec0f94f7ebb36dfef6159884 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/NoNetcode.png' with importer (TextureImporter)
+Imported 'GUID: 1daed49eec0f94f7ebb36dfef6159884' -> (Import Result ID: '1637ceab8cc17aed48aabeac6e667b91') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1cae827bda7f2856efb8b7dcb3c553f6 DependenciesID=f86265d0ec1185cd0f9aec00c87db873 StaticDependenciesID=5a13e94bd516d6164832721d70d59972 
+Importing 'GUID: 9d9689eab72c8480c90679f4dcf18820 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/Package.png' with importer (TextureImporter)
+Imported 'GUID: 9d9689eab72c8480c90679f4dcf18820' -> (Import Result ID: '23cc31052a7c2ab0ff91d0468026b82d') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8bc77c341b3e39124632d05c40ef05a0 DependenciesID=1f59ce05f147339f1bb9f75cf23890fd StaticDependenciesID=e8384552be757fa0a05374b71413eca3 
+Importing 'GUID: ad1d29f4654194951a3c8bf507914d05 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/CloudCode.png' with importer (TextureImporter)
+Imported 'GUID: ad1d29f4654194951a3c8bf507914d05' -> (Import Result ID: 'a2aa6eb0bd0f89331d78bb484edea0cd') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11f2acbc4f1503a10d123177c606d2c2 DependenciesID=ae97c9b241846668b621eaf0cdd9ee9f StaticDependenciesID=537802c5f783566a9c6d02f8e903a794 
+Importing 'GUID: dd70cd654275d47db807e918055e004f - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/Questionnaire.png' with importer (TextureImporter)
+Imported 'GUID: dd70cd654275d47db807e918055e004f' -> (Import Result ID: 'aa43ea777ea0c618a7a9276fbfd71313') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f747fb51b2ea21751945fc2ee59e3879 DependenciesID=dc2e6c3fb9fa374bab9dd329c5aae9d5 StaticDependenciesID=d9dc70b0c1794c8caabd8685e49bb144 
+Importing 'GUID: 3fe892784421e47f5aa40c2784a6cb3e - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/DedicatedServer.png' with importer (TextureImporter)
+Imported 'GUID: 3fe892784421e47f5aa40c2784a6cb3e' -> (Import Result ID: '7cfc8d2538ac4a557aacd59ce125f3b4') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b600e887421d855e0a03d72305e9c31 DependenciesID=72256042090f0acf0db8c5c067710906 StaticDependenciesID=bdd55422b0d567338b09b6aa3d867849 
+Importing 'GUID: 4f78a544322c742b89e63fb68557b1d2 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/Check.png' with importer (TextureImporter)
+Imported 'GUID: 4f78a544322c742b89e63fb68557b1d2' -> (Import Result ID: 'b2aa35cda861d37b37accf5b79cf3ec7') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=219e7ef6ca884d9db524e78d4ff48a4b DependenciesID=dd283ea322d91f56882846deb9d09ee5 StaticDependenciesID=ba8d35ce366c251b86f23527b356869d 
+Importing 'GUID: 30b312a167534621b316172253b08723 - Path: Packages/com.unity.modules.subsystems/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 30b312a167534621b316172253b08723' -> (Import Result ID: 'a8e692fd011231b1785c5a5092ca6134') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=5d4e1d411c6d1280fee0fd81da9b9a41 DependenciesID=6d317327e1667f4c7a34b608efcc0f82 StaticDependenciesID=385e9e1196906d33665a1b49cecb2642 
+Importing 'GUID: 40bf3cec17fa0b49fe04443c8332d638 - Path: Packages/com.unity.modules.jsonserialize/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 40bf3cec17fa0b49fe04443c8332d638' -> (Import Result ID: '4eabec630f43ce71eddd0b1d98ff224c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=891918617c984cf929da287de3b28243 DependenciesID=dcc3a515981ed940f1b43d8713051d9f StaticDependenciesID=622b423f43a10abfb29c80ed26cd63e9 
+Importing 'GUID: 70554f6c9e4114e1084bb38f9ea400ce - Path: Packages/com.unity.multiplayer.center/LICENSE.md' with importer (TextScriptImporter)
+Imported 'GUID: 70554f6c9e4114e1084bb38f9ea400ce' -> (Import Result ID: 'd55c7d32804945af3c88352c7860603b') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=78bb88f49d27d0101051f0d5acc27c69 DependenciesID=859a57107c2464ff4f8b184b63ce7562 StaticDependenciesID=7baee89625a88618ef0a48bdadbbb058 
+Importing 'GUID: 80beef77cb19e713c7c2d481b65ed485 - Path: Packages/com.unity.modules.screencapture/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 80beef77cb19e713c7c2d481b65ed485' -> (Import Result ID: '74e89dbd04ceba7769828a572a49d23c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=983250a2dc621a762e73ead2ce94efd8 DependenciesID=0d11c3633f4c44ce4a7ea1ae956b6e22 StaticDependenciesID=dadc3d911a7c46cc4c936eca012a1f77 
+Importing 'GUID: 906c12bc9cd95d3963c6d58f62522c78 - Path: Packages/com.unity.modules.cloth/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 906c12bc9cd95d3963c6d58f62522c78' -> (Import Result ID: '20c55bfb079e4167b905f1a336b0b924') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=516616d488b80658f1bc6d39e6323fe4 DependenciesID=e8a072cb1a3c9142be01c1caf9809f22 StaticDependenciesID=aa825a47490b9d37ae1682dd22bc48a2 
+Importing 'GUID: d0e3ad91972c66f5238f5b9b7d5ae58a - Path: Packages/com.unity.modules.unitywebrequesttexture/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: d0e3ad91972c66f5238f5b9b7d5ae58a' -> (Import Result ID: 'aaa00e141232a302ffda6ca8c53562c2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=50532d8986b57e8cf0f67d010ae5faa9 DependenciesID=1ef40c4fdca9776dfcfad5a1d429d060 StaticDependenciesID=ffdf5e3336c43c582fc99ec1e76cca82 
+Importing 'GUID: f0f13f2ab3d6d13cfc6e4656824bfca8 - Path: Packages/com.unity.modules.ai/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: f0f13f2ab3d6d13cfc6e4656824bfca8' -> (Import Result ID: '88a58f5bdd1b78ce29be041de05c21dc') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=084f1efaf4086fe15fda68049aa031a1 DependenciesID=ec49f66428f0d103e48687e64cc439b6 StaticDependenciesID=64bbe47daac5e6356ec8fec9c7a57860 
+Importing 'GUID: e1ef8466c8fd01a549f10baa4d51fa17 - Path: Packages/com.unity.modules.assetbundle/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: e1ef8466c8fd01a549f10baa4d51fa17' -> (Import Result ID: '42be5fd806573232e90694b097036963') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c14d0c80429a1b2e07a8aa59da3e090e DependenciesID=ecb40118a4a74637ac01536015607582 StaticDependenciesID=b2762958fd84c292fb0913073929f3c4 
+Importing 'GUID: 42fe78c8fe682715a2cb531422e6ccb3 - Path: Packages/com.unity.modules.imgui/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 42fe78c8fe682715a2cb531422e6ccb3' -> (Import Result ID: 'fc0a9359bb9480b86353c0a168a7eb77') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f3517442a7b9f2e47ee8fa5d575508d6 DependenciesID=4a11667989787ce9360fe2c901d8576d StaticDependenciesID=3f157647b44121eae5847852aa39233b 
+Importing 'GUID: 92a378669877c05c6071d0fed687bb95 - Path: Packages/com.unity.modules.tilemap/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 92a378669877c05c6071d0fed687bb95' -> (Import Result ID: '8877264d60fc93dfec217ee25bb82b0a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f33f95d07119304837f09eeace9783ca DependenciesID=78f5593ec4a6c62661a9a59b8e0e8518 StaticDependenciesID=30bd7dc6d0c651e896473825d3c94e13 
+Importing 'GUID: 43674d438e19b89d7fe6af07234f3252 - Path: Packages/com.unity.modules.accessibility/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 43674d438e19b89d7fe6af07234f3252' -> (Import Result ID: 'b2c27422921a3a28a4094df23b4a4ad4') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=e23a5c5d7d61ce365f1d19ca6a223a88 DependenciesID=8272167d4557cecead748cf996099d55 StaticDependenciesID=0fb465e05f7757ff2bf0a96dc6c9f07c 
+Importing 'GUID: c359bcaf4a0bc4040aac650bf14ec619 - Path: Packages/com.unity.multiplayer.center/README.md' with importer (TextScriptImporter)
+Imported 'GUID: c359bcaf4a0bc4040aac650bf14ec619' -> (Import Result ID: '1183d44490121784b9bb4f6f13e0308d') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=831480381b02aa5119aabcfe7c5eaa60 DependenciesID=45f692f4bde51ac670459ab2f60c9dab StaticDependenciesID=d96682c84409acab63d171eb902a501e 
+Importing 'GUID: d3cbe921f7b3d9a3257e7c61a5761796 - Path: Packages/com.unity.modules.terrainphysics/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: d3cbe921f7b3d9a3257e7c61a5761796' -> (Import Result ID: '7e8e35671fc24b4a7d50845dbe53e6ee') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4293423a982649a317eebc9f11bbd1b8 DependenciesID=e4c98f78e10f7a94f67c06ced76f9834 StaticDependenciesID=43448d0fc8598e38963bab849ca19d98 
+Importing 'GUID: 05f7f519769978b79b31d063a7fc6fa1 - Path: Packages/com.unity.modules.unitywebrequestassetbundle/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 05f7f519769978b79b31d063a7fc6fa1' -> (Import Result ID: '31d107b60f8b6f1350dc681ed050f5fb') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a676fdc87741fdb3d4562c9b189a12fc DependenciesID=8c0f9a4df46d6ae4a2e5998b2eedc329 StaticDependenciesID=fafd3c0697b50c089cd5837ccb6cb56d 
+Importing 'GUID: 953fab16d15d5885b3600fcd6388b2ad - Path: Packages/com.unity.modules.imageconversion/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 953fab16d15d5885b3600fcd6388b2ad' -> (Import Result ID: '37a0e5d823c2a4e107f455170c7b2996') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=21af7c3c6098e54697c36eeb0f93f731 DependenciesID=d632d57668aa37d36501cda77b6bb2ac StaticDependenciesID=ac8c79ed0df9a159db58960205d3f29d 
+Importing 'GUID: b5930dbc378b45d406aeb881f06b6dfa - Path: Packages/com.unity.modules.physicscore2d/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: b5930dbc378b45d406aeb881f06b6dfa' -> (Import Result ID: 'e546d4dd5e73359b89dc3ed02a3121e9') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=17eebdd45c9292f6cb08e3796d0e3496 DependenciesID=64eed91d0c0d03074b5647d0e14ff881 StaticDependenciesID=4f999c6015a97d7af3882cae2e1386ab 
+Importing 'GUID: 26a4f29db434fd79025c91f6126382cc - Path: Packages/com.unity.modules.unityanalytics/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 26a4f29db434fd79025c91f6126382cc' -> (Import Result ID: '2c9deacfe39bba61b3116d4538dffca0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=64cd0125ffa27280e42f5bc3480004c0 DependenciesID=6e119a68a2a4970162d9a01805cbafdd StaticDependenciesID=aa84f7d0861936709a615a1f07d59720 
+Importing 'GUID: 96d14b71b907bb52333b2886e665aba6 - Path: Packages/com.unity.modules.video/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 96d14b71b907bb52333b2886e665aba6' -> (Import Result ID: '5688a0e03afe0f4c59823db3ba9400f8') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=97331c0a394344b81f304a267aa0ee32 DependenciesID=9e4e0283f4e2833d59e739ccece9147e StaticDependenciesID=8d8245fc702db45193c8b45ac9675393 
+Importing 'GUID: 87d720faa37005c08600090e04d8c739 - Path: Packages/com.unity.modules.particlesystem/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 87d720faa37005c08600090e04d8c739' -> (Import Result ID: '198d29cca0a9b10d0575be5f18d4c7cf') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ab3ee686cd4ed15f5f20d2c8a27562c1 DependenciesID=7b23952edfa2095f280cde4b28f93993 StaticDependenciesID=ad0aae608fe31f0ae515e09daa46d028 
+Importing 'GUID: f7a8357347c80dc69c08d0b1a05e2122 - Path: Packages/com.unity.modules.physics2d/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: f7a8357347c80dc69c08d0b1a05e2122' -> (Import Result ID: 'f7411b8b53d2ac00dc20cc1560cdfd4d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=919e2a11128050effa789097769a2a78 DependenciesID=70f7de1fb1f3aeec8d2457cae37ea337 StaticDependenciesID=1ef12d87c39a9443ce7bd34c874dc5d0 
+Importing 'GUID: 78e5667e52329c3ceef41288763404ae - Path: Packages/com.unity.modules.vectorgraphics/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 78e5667e52329c3ceef41288763404ae' -> (Import Result ID: '4620a653dce208169a748a99045d4c0b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4ecdabad2dfa4bdbd05a32eab7720e4f DependenciesID=5d4a4b5fd622bb68722194da1992476d StaticDependenciesID=29ce99229683f454e36dc55cd6703618 
+Importing 'GUID: b83f06ac0c0696e9563230865ca72b81 - Path: Packages/com.unity.modules.wind/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: b83f06ac0c0696e9563230865ca72b81' -> (Import Result ID: 'e70a8ce0e9a3625bfbbc5480e761be00') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=48a5258515ca15f6f7f90d7b79f1d94b DependenciesID=bc31bbc7215c23a9ae31856ba7c311fe StaticDependenciesID=3859d47a6a6026c1e7e0d75025aadc7c 
+Importing 'GUID: c8f6fa942856442b8bd72594d3ce7363 - Path: Packages/com.unity.multiplayer.center/Third Party Notices.md' with importer (TextScriptImporter)
+Imported 'GUID: c8f6fa942856442b8bd72594d3ce7363' -> (Import Result ID: '3119ef9f4a72a22ffb0ea29df5833ce6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=03ddb98ad266806dbd104aeb58230d0c DependenciesID=9eaf3d94591a4e5988f6e528774ce1ac StaticDependenciesID=afd335f47a3f22742a2e841ee53f6c62 
+Importing 'GUID: d85e5eeaf8f135aeaaebdc8aa3cff6c3 - Path: Packages/com.unity.modules.umbra/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: d85e5eeaf8f135aeaaebdc8aa3cff6c3' -> (Import Result ID: 'db188455f6c4d8332100e926f61dcaa0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4d25716d6c3e24bf1a7a8cbf11399c74 DependenciesID=0cb48eb11148c930a92cbbf734113418 StaticDependenciesID=141b629859d22d14c18a0380b351e6ff 
+Importing 'GUID: e9df95f53f1c1d0c9199e235d6c42b50 - Path: Packages/com.unity.modules.audio/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: e9df95f53f1c1d0c9199e235d6c42b50' -> (Import Result ID: '75616cf8cdf1500927d5a938f5f0b8f2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7bff69c037aa519a654c229c1b6809dd DependenciesID=ad449fbbb5a400f16ae0e8f46cf3de9b StaticDependenciesID=2f6f6e9d918b0c20fa5476baa4948018 
+Importing 'GUID: 1a4266815e998967becf686f9c71f0a6 - Path: Packages/com.unity.modules.physics/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 1a4266815e998967becf686f9c71f0a6' -> (Import Result ID: 'afac754c6748d624280c7abc94eeebbb') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2c72742771a2c41ecd040e5a25968787 DependenciesID=a58d3b765c0a1994c68d11321443eb7c StaticDependenciesID=e9effa316a74fee2dea627a5e295ef30 
+Importing 'GUID: 6afb166a156df2d20433d981f4bb2832 - Path: Packages/com.unity.modules.vehicles/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 6afb166a156df2d20433d981f4bb2832' -> (Import Result ID: '3f2fb79a4754342cc1d6f7c420839d96') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b9584b21688236880549537b502bc979 DependenciesID=aab2a0af826dbd80820fb06a70ab7539 StaticDependenciesID=ccad1721c6ab863389b81cd81388093f 
+Importing 'GUID: fa27413e9edb06a6058d6c894eca0338 - Path: Packages/com.unity.modules.unitywebrequestwww/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: fa27413e9edb06a6058d6c894eca0338' -> (Import Result ID: '5d0f4c574267044882b826db4e0281bd') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ef4111052f639e700ab30e1188cae7f8 DependenciesID=eaacd5e0753d2ab28d5078887089f243 StaticDependenciesID=2b6e680be89bbd092f4f3ce896bc3deb 
+Importing 'GUID: 3bbd27b3dd7be4a74aeab8da6b0af5cc - Path: Packages/com.unity.multiplayer.center/CHANGELOG.md' with importer (TextScriptImporter)
+Imported 'GUID: 3bbd27b3dd7be4a74aeab8da6b0af5cc' -> (Import Result ID: '01cbdebe2d276a40bd896eff9452c133') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=aa74ecc46bd2967dbcade4b1f59c963e DependenciesID=e399a4bca2a120c182e96f287a2628e4 StaticDependenciesID=d4f75acca1f0682e6d03b19dc60a26d1 
+Importing 'GUID: 4b518b37798c97b0f860962cbf615533 - Path: Packages/com.unity.modules.unitywebrequestaudio/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 4b518b37798c97b0f860962cbf615533' -> (Import Result ID: '118242adfc8c3868a86f7dbdd0d24764') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=91f22434b9ab55a5c83f3c60940e8474 DependenciesID=98553e8369af8babefceed48b172c0a6 StaticDependenciesID=58833d0caac6f0e20244f6d9ce4ebfe6 
+Importing 'GUID: 9b1a5759726ef9d39a0ab82047b615f1 - Path: Packages/com.unity.modules.hierarchycore/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 9b1a5759726ef9d39a0ab82047b615f1' -> (Import Result ID: '57eef9b8adffdc9a2dfbda6b20f2d2fa') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1299c778185973c2d3f2bb276cd8d0e7 DependenciesID=3c2f080408717827fe1cb3cacc57ebfc StaticDependenciesID=2c836481a2ea9a2c518fb663d0d0f7da 
+Importing 'GUID: 2c814623cb42764d304be0c5ddd03ceb - Path: Packages/com.unity.modules.xr/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 2c814623cb42764d304be0c5ddd03ceb' -> (Import Result ID: 'b8481d63a17fca325d00cc805752862e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7f441ac2d6a687e067f2d83f9a07d6bb DependenciesID=330586652bbaf42c7c38e61b0bb4d3a2 StaticDependenciesID=67155302bb7c9348d443fe1fc575b48a 
+Importing 'GUID: 4c413a81cadcce7038e446e56570117e - Path: Packages/com.unity.modules.adaptiveperformance/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 4c413a81cadcce7038e446e56570117e' -> (Import Result ID: '26784d2c17a8535fb75e861f56957725') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e58e4e674ae30d7b75f4a6d1a5cb9032 DependenciesID=5fc77c8d711c78de07b603ed327f7d50 StaticDependenciesID=602f9c1804f7ef9c2a3be63b037a0143 
+Importing 'GUID: ec02776fe29df900b897106d61977735 - Path: Packages/com.unity.modules.director/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: ec02776fe29df900b897106d61977735' -> (Import Result ID: '0ebe54e16a496b03a5fa22d54179cd06') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d3cc052d8f895db30a66424de2b1783d DependenciesID=07a061ba611a4aa17205dba7b22543a7 StaticDependenciesID=3d21e6fc9a22ff2359e278c0b687f9c0 
+Importing 'GUID: 6d56244f8c39a851975d3c0bd432c66f - Path: Packages/com.unity.modules.terrain/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 6d56244f8c39a851975d3c0bd432c66f' -> (Import Result ID: 'f16a11bfbfda86ae4c17f7001f977c5e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=0147ed4a7bf27ee69660cd49b175a05f DependenciesID=70cf1217d8cfd0f03aafa6be372e29ab StaticDependenciesID=2212fffd364e903fe979d180bd590bc5 
+Importing 'GUID: bd1af0a6633ee94ae21c7d1d702cdc12 - Path: Packages/com.unity.modules.androidjni/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: bd1af0a6633ee94ae21c7d1d702cdc12' -> (Import Result ID: '6a6f8b34a538aa6708d5774eb2418d27') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=58196444acd2f5a146944d8272e88433 DependenciesID=bd15870807a81948584d8f6987181bac StaticDependenciesID=b64ef7eadf7e885992fd502fd8a54aca 
+Importing 'GUID: 7ef8348b8ea834d7e1bc214b07f7fb87 - Path: Packages/com.unity.modules.animation/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 7ef8348b8ea834d7e1bc214b07f7fb87' -> (Import Result ID: 'decb72bac0e8d74bffcb93e7bd01db41') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=71365924848c115c14d4e8a430945e5d DependenciesID=5d0b8603e93b455c65dd161bd88229ca StaticDependenciesID=5fa02bd89308639e96132961e261c4d8 
+Importing 'GUID: 3fdd83b151eb8d25c5e2f82fc39dcb04 - Path: Packages/com.unity.modules.unitywebrequest/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 3fdd83b151eb8d25c5e2f82fc39dcb04' -> (Import Result ID: 'fcd0aff570d6f661e3e4c8f95ec95810') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=609e642c4d5fd6e0b6d325d2f170eb1c DependenciesID=3259de4146fe423f7f66e0f3244522ad StaticDependenciesID=badaa3700d27782be60988994f356fe2 
+Importing 'GUID: 4f0f9b9f3ed97ad2b9ba8f1a8e4666c2 - Path: Packages/com.unity.modules.uielements/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: 4f0f9b9f3ed97ad2b9ba8f1a8e4666c2' -> (Import Result ID: '522ba9a5aadb96d7e76794b1a79cf6b5') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=14c0f2b1b250cec076c4d9c62abdd5a9 DependenciesID=d847aa60dd764b562bea9a39485a13ca StaticDependenciesID=ec1028743e7b252c87ef16780f044202 
+Importing 'GUID: bfd567a3d1631a761bca9e99fa53d86d - Path: Packages/com.unity.modules.ui/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: bfd567a3d1631a761bca9e99fa53d86d' -> (Import Result ID: '79341bb73a5edb9b927b49081b34005b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7bb9b76f93faf76244e454a1fca49870 DependenciesID=25a47a80fec281f23345c72ba0f73e9c StaticDependenciesID=71c5c81156ec85e83cc24fff76ddfdca 
+Importing 'GUID: df0857f6a11054383be91b1f8e1b5800 - Path: Packages/com.unity.multiplayer.center/package.json' with importer (PackageManifestImporter)
+Imported 'GUID: df0857f6a11054383be91b1f8e1b5800' -> (Import Result ID: 'd0e41c99e7f3b485876b1ddba7858496') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=a4f654672cb55ec9581b1a0eec4a5388 DependenciesID=3e96b8613026ae5526088f10d7fc3790 StaticDependenciesID=b1db56f0565e6a3565e38968df2dd4ac 
+Importing 'GUID: f1ac2efb1bcd4dfd95dc196ed3c11367 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/light.uss' with importer (ScriptedImporter : UnityEditor.CoreModule:UnityEditor.UIElements.StyleSheets:StyleSheetImporter)
+Imported 'GUID: f1ac2efb1bcd4dfd95dc196ed3c11367' -> (Import Result ID: '1d60418c0782905bc36c8585468349a7') in 0.050 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f472d58d43cbfe555d29f8a59adfacf2 DependenciesID=e2f6769f6c898a8b74d33769b4e8c7f0 StaticDependenciesID=3e5922392543e36cd1a4778005a0e479 
+Importing 'GUID: 1984cd07fe96417f9e88f5771f6b4b32 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/dark.uss' with importer (ScriptedImporter : UnityEditor.CoreModule:UnityEditor.UIElements.StyleSheets:StyleSheetImporter)
+Imported 'GUID: 1984cd07fe96417f9e88f5771f6b4b32' -> (Import Result ID: 'f6d813b29c160400b5bb7c51efd10ee7') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=511f53ee3964bca2a5fb61fcee3bfd0f DependenciesID=744682902f4fd016b11c1fa1b329181b StaticDependenciesID=0448811d4a7b33444098d2d1252d68e6 
+Importing 'GUID: bac00d6e07f0b4305bb395363c89d92b - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/MultiplayerCenterWindow.uss' with importer (ScriptedImporter : UnityEditor.CoreModule:UnityEditor.UIElements.StyleSheets:StyleSheetImporter)
+Imported 'GUID: bac00d6e07f0b4305bb395363c89d92b' -> (Import Result ID: 'c8397da11ea9e4265ab8c77a62a22b96') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a794cfa049bff833a19e6de0123f1da DependenciesID=6190a7f14e36590003a266ddff11b5a9 StaticDependenciesID=12a6194d2484a552d0b3fcab8a7d9c25 
+Starting new worker id: 0 with log in C:/Users/StudentGeorgeTolkach/Desktop/CG/Logs/AssetImportWorkerHW0.log
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+
+Asset Pipeline Refresh (id=3eeda15f0620614418bca3c18922091d): Total: 59.230 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=154 (actual=154, local cache=0, cache server=0)
+		Asset DB Process Time: managed=8 ms, native=1351 ms
+		Asset DB Callback time: managed=45 ms, native=2217 ms
+		Scripting: domain reloads=1, domain reload time=655 ms, compile time=54943 ms, other=6 ms
+		Project Asset Count: scripts=113, non-scripts=81
+		Asset File Changes: new=0, changed=216, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1305.482ms
+	ApplyChangesToAssetFolders: 0.492ms
+	Scan: 104.905ms
+	Collect global state as custom dependencies: 17.431ms
+	OnSourceAssetsModified: 0.752ms
+	CategorizeScriptCompilationAssets: 0.367ms
+	ProcessAssetsWithTransientArtifactChanges: 0.799ms
+	CategorizeAssets: 1.236ms
+	CompileScripts: 54943.354ms
+	ImportOutOfDateAssets: 1136.233ms (375.908ms without children)
+		ImportManagerImport: 698.972ms (224.243ms without children)
+			UpdateCategorizedAssets: 0.264ms
+		UnloadImportedAssets: 0.258ms
+		ImportSchedulerStart: 61.053ms
+	PostProcessAllAssets: 971.005ms
+		VCAutoAddAssetPostprocess 0.905ms
+		AssemblyValidation.PostprocessAllAssets 0.599ms
+		PostProcessCallbackCreateDeferredMaterials 0.344ms
+		ShaderAssetModifiedCallback 0.265ms
+		RaytracingShaderImportPostprocess 0.154ms
+		ComputeShaderImportPostprocess 0.127ms
+		SpeedTreeImporter.PostprocessAllAssets 0.104ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.068ms
+		BlockShaderImporter.PostprocessAllAssets 0.057ms
+		MonoPostProcessAllAssets: 44.681ms
+			AssetPostprocessor.OnPostprocessAllAssets 7.295ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 6.775ms
+			AssetChangedListener.OnPostprocessAllAssets 5.804ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.565ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.605ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.010ms
+			SyncVS.PostprocessSyncProject 1.209ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.114ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.061ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.901ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.387ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.211ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.208ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.201ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.193ms
+			AssetEvents.OnPostprocessAllAssets 0.169ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.127ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.099ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.094ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.069ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.052ms
+	PostAssetChangesProfiler: 3.906ms
+	UnloadStreamsBegin: 1.506ms
+	PersistCurrentRevisions: 0.117ms
+	GenerateScriptTypeHashes: 0.088ms
+	GenerateScriptTypeSerializationHashes: 0.196ms
+	Untracked: 725.313ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 4.480ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-CG_HT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (0.5 MB). Loaded Objects now: 899.
+Memory consumption went from 224.9 MB to 224.3 MB.
+Total: 3.961000 ms (FindLiveObjects: 0.047200 ms CreateObjectMapping: 0.017400 ms MarkObjects: 3.736600 ms  DeleteObjects: 0.157900 ms)
+
+[LAYOUT] C:/Users/StudentGeorgeTolkach/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\default does not exist. Copying base layouts.
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\StudentGeorgeTolkach\Desktop\CG\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/StudentGeorgeTolkach/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 82.468 seconds
+	Project init time: 				76.212 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.014 seconds
+		Asset Database init time: 		2.177 seconds
+		Global illumination init time: 	0.117 seconds
+		Assemblies load time: 			10.652 seconds
+		Unity extensions init time: 	0.000 seconds
+		Asset Database refresh time: 	59.230 seconds
+	Scene opening time: 			0.808 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792503772865,"processId":19696,"projectLoad":82.4681625,"projectInit":76.2122574,"templateInit":0.0,"packageManagerInit":0.0135912,"assetDatabaseInit":2.1773823,"globalIlluminationInit":0.1171217,"assembliesLoad":10.6517518,"unityExtensionsInit":0.0003964,"assetDatabaseRefresh":59.2298651,"sceneOpening":0.807675}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792503772865,"processId":19696,"editorVersion":"6000.5.9f1 (b57deb96f08d)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=5c4018229dbb02c43b59d0086514982d): Total: 0.022 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[MODES] ModeService[default].LoadModes
+[Licensing::Client] Successfully resolved entitlement details
+Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/StudentGeorgeTolkach/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.159s, timestamps: [83.522 - 83.681]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "m4eYqR6o"... (expires: 2026-10-20T15:40:47Z)
+Starting new worker id: 1 with log in C:/Users/StudentGeorgeTolkach/Desktop/CG/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 22d3dbf8d488d49d2b1130d698010dee - Path: Packages/com.unity.multiplayer.center/Editor/Features - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '19acbc59ee19753224fe144b992873d9') in 0.0468483 seconds
+Starting new worker id: 2 with log in C:/Users/StudentGeorgeTolkach/Desktop/CG/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 157e1606dfbd48dda6f01acbf49435b0 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/QuestionSection.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bbc980b39db22c9c7202d9d9312682b6') in 0.032224 seconds
+[Worker0] Imported GUID: 4616b2fa4acd1429e931835b80966c2a - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/PackageInstalled.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ac6452fd428eac9bd5a34de5db8a048e') in 0.0323672 seconds
+[Worker0] Imported GUID: 1bd8e2f47a6c4478ab8f0ade7687e79b - Path: Packages/com.unity.multiplayer.center/Common/IOnboardingSection.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '50a7ecd6dac022d3b6e81377a5171c32') in 0.0034099 seconds
+[Worker0] Imported GUID: 833328f3bcf144cc94f92e286e86b427 - Path: Packages/com.unity.multiplayer.center/Common/IOnboardingSectionAnalyticsProvider.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f4eb705a69776f8d650c9ea9a6d2963c') in 0.003644 seconds
+[Worker0] Imported GUID: be13c398521e3c1ad21fb9da30ab2ab6 - Path: Packages/com.unity.modules.imgui/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1f0480f1dcf008c532a1f5c2b920749c') in 0.0037066 seconds
+[Worker0] Imported GUID: 4f0f9b9f3ed97ad2b9ba8f1a8e4666c2 - Path: Packages/com.unity.modules.uielements/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0df0eac05e34e3d99600e406f853ced1') in 0.0045582 seconds
+[Worker0] Imported GUID: dab91f148d99946e7b3c3a87ecf4b973 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_Loading.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7f57244d374b45d512ef9d4067ee6c86') in 0.0061454 seconds
+[Worker0] Imported GUID: 3595bcaa1af84e6d92e07f0258a4256c - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire/PresetData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7d6aaaff6fdbb01c3a8b63c8b97ee0f7') in 0.0037553 seconds
+[Worker0] Imported GUID: 89b6d933e4994d0980f6b48dc2b8779c - Path: Packages/com.unity.multiplayer.center/Common/AnswerData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b2b6ed253fd8fd91032bda3234732750') in 0.003512 seconds
+[Worker0] Imported GUID: 05f7f519769978b79b31d063a7fc6fa1 - Path: Packages/com.unity.modules.unitywebrequestassetbundle/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '709637e19e45434dac48ecaa20d79f2e') in 0.0051308 seconds
+[Worker0] Imported GUID: e9df95f53f1c1d0c9199e235d6c42b50 - Path: Packages/com.unity.modules.audio/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c279343cf5fccc20870a9c164cf59fa0') in 0.0053836 seconds
+[Worker0] Imported GUID: 2c814623cb42764d304be0c5ddd03ceb - Path: Packages/com.unity.modules.xr/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8a424a49d8b9304e1aec28fa3c77f449') in 0.0041277 seconds
+[Worker0] Imported GUID: c359bcaf4a0bc4040aac650bf14ec619 - Path: Packages/com.unity.multiplayer.center/README.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4537ba8a328a7e2f460713ee7fa65f1c') in 0.0043034 seconds
+[Worker0] Imported GUID: 77be953cf28de42a4ad8532539fef3f5 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_PackageInstalled.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd2713100e4991f171c52be430cdd8ae9') in 0.006676 seconds
+[Worker0] Imported GUID: fe6a6957b37b61417b457a1e0541791d - Path: Packages/com.unity.modules.physics2d/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5bf4b3e4a8f9b0479333d352cf5c5ed4') in 0.0039634 seconds
+[Worker0] Imported GUID: 222fc39b0c85d800342910da2cd64781 - Path: Packages/com.unity.modules.assetbundle/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1f7cd19a9ac1531f1cc0b50dc8d9aa1a') in 0.0037234 seconds
+[Worker0] Imported GUID: 50d5ff9fe4ab4477b7ea648da183e9d1 - Path: Packages/com.unity.multiplayer.center/Common/StyleConstants.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '39c4203e99b5d18ad088e4c7a5a6a220') in 0.0038915 seconds
+[Worker0] Imported GUID: 830a36a23cf3ab1e61fa47940a6dc35e - Path: Packages/com.unity.modules.imageconversion/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4e8ff568aea5f53755d56335f2c9d774') in 0.0037597 seconds
+[Worker0] Imported GUID: 70554f6c9e4114e1084bb38f9ea400ce - Path: Packages/com.unity.multiplayer.center/LICENSE.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a75e32342c996881552210ad13f6b18a') in 0.0046301 seconds
+[Worker0] Imported GUID: f1ac2efb1bcd4dfd95dc196ed3c11367 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/light.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '721bb53a3c09e1824585573a95726c0f') in 0.0232287 seconds
+[Worker0] Imported GUID: df0857f6a11054383be91b1f8e1b5800 - Path: Packages/com.unity.multiplayer.center/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0b97e73e3f1659fadc61128f8c5f0a8d') in 0.0043409 seconds
+[Worker0] Imported GUID: 7456ea4ba2dcd48d3909b82e610f2048 - Path: Packages/com.unity.multiplayer.center/Tests/Runtime/PlaceholderTest.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7abf4cbd1344ab5044f9ea8e546868ad') in 0.0042653 seconds
+[Worker0] Imported GUID: 0423146d9f51c4563a0f2a8200b6cd38 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/PackageInstalled@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9ef1bb9d871ef1766027e403fc0f051b') in 0.0067163 seconds
+[Worker0] Imported GUID: c82e859b16636ddd2ca4a1f63fd34938 - Path: Packages/com.unity.modules.androidjni/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8d13b83b2d5917b9b5d0f170438bc6dc') in 0.0041453 seconds
+[Worker0] Imported GUID: d9beb5106d424f23902054f76d4b673d - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire/Logic.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e04969f772784f8ec3787af4b1e89ce4') in 0.0039525 seconds
+[Worker0] Imported GUID: 4c413a81cadcce7038e446e56570117e - Path: Packages/com.unity.modules.adaptiveperformance/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6aa958ab2b52ce54416ae49f8ae06bb8') in 0.0045355 seconds
+[Worker0] Imported GUID: 15513aed5d41411c887ccfe14c103337 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/UserChoicesMigrationTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6f07e72e12470ccdcb4e9cf827e9b2e3') in 0.00358 seconds
+[Worker0] Imported GUID: bd1af0a6633ee94ae21c7d1d702cdc12 - Path: Packages/com.unity.modules.androidjni/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '12d1ba2db1e50d72f67de741bbfdf37f') in 0.0040192 seconds
+[Worker0] Imported GUID: d1084186a4004823abee9b87c8ddf198 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/RecommendationViewBottomBar.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '02c727e80c719bc7cfe05de5b6d1cdb0') in 0.0036709 seconds
+[Worker0] Imported GUID: d85e5eeaf8f135aeaaebdc8aa3cff6c3 - Path: Packages/com.unity.modules.umbra/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '06a25794fd5c7c3214b8c35d1f4d3ba2') in 0.0044762 seconds
+[Worker0] Imported GUID: 84abd2ab34a74600a33a3bb9d72859fe - Path: Packages/com.unity.multiplayer.center/Common/Unity.Multiplayer.Center.Common.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ac59990d98fd894b33af3a0dc157eb93') in 0.0047437 seconds
+[Worker0] Imported GUID: 4b518b37798c97b0f860962cbf615533 - Path: Packages/com.unity.modules.unitywebrequestaudio/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6c907be80f51052be308f10f1b9c8ac7') in 0.0042842 seconds
+[Worker0] Imported GUID: 284da2a38ea043d69e1a38fd8a22bec9 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/RecommenderSystemTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c7926759d1bd3ae2f3ee29bb773f4c6f') in 0.0045864 seconds
+[Worker0] Imported GUID: 082fbee38a82835433261a5e9c00e267 - Path: Packages/com.unity.modules.cloth/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '63dbdb96f4a36b4b6a30815fa06d5b46') in 0.0042197 seconds
+[Worker0] Imported GUID: 51fa60bb2bd1e5bc74e8cc95a7bfd5b7 - Path: Packages/com.unity.modules.ui/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a70449a297638a0285766d5823db2475') in 0.0038123 seconds
+[Worker0] Imported GUID: 0d9328c739784454ad03d404f395a0ab - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/ViewUtils.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e3c3aaa33597f50bfd3f9db2d1ebad5f') in 0.0035156 seconds
+[Worker0] Imported GUID: 8110dd6ddbc04e58b50978562ce0c00a - Path: Packages/com.unity.multiplayer.center/Tests/Editor/ExpectedPresetRecommendations.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '36ca33151a392db32df647e2e6b09ea0') in 0.0035478 seconds
+[Worker0] Imported GUID: f0f13f2ab3d6d13cfc6e4656824bfca8 - Path: Packages/com.unity.modules.ai/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '96f97382821aaaeee728e958a29aefee') in 0.0047234 seconds
+[Worker0] Imported GUID: 1726448925bf4bd1af6ca883bae8ff3f - Path: Packages/com.unity.multiplayer.center/Editor/OnBoarding - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b0ee0ff6557a7bacecb290585a25d4cc') in 0.0149987 seconds
+[Worker0] Imported GUID: fcbb62ff857b4cf49e74f5f9aca6e8d6 - Path: Packages/com.unity.multiplayer.center/Editor/OnBoarding/SectionsFinder.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '496b949c9bf6ff91ed3ca9b4a973ad71') in 0.0039577 seconds
+[Worker0] Imported GUID: 99da7b3894f364efdb5fa1443952a55d - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/NGO.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e9bf4c2ce76467590cc61fa7384853c1') in 0.0058592 seconds
+[Worker0] Imported GUID: 7610600f5c83e01041a6fe849d39279f - Path: Packages/com.unity.modules.unitywebrequestassetbundle/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9616495bde308ad1a533919a5ecd7842') in 0.0141459 seconds
+[Worker0] Imported GUID: b83f06ac0c0696e9563230865ca72b81 - Path: Packages/com.unity.modules.wind/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '53a7e1375ff4509b3feef7b055b5780a') in 0.0044735 seconds
+[Worker0] Imported GUID: baf75c9d3de4941df9ee5f3dd1d3bc34 - Path: Packages/com.unity.multiplayer.center/Tests - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7f3f5c315140ff586b8bc58a001f7a55') in 0.0037827 seconds
+[Worker0] Imported GUID: c3d3226643b94888b02e25de0a9de55f - Path: Packages/com.unity.multiplayer.center/Tests/Editor/UserVisibleTextTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '55b63f99ddf01ac5097ad4916286a0f5') in 0.0035735 seconds
+[Worker0] Imported GUID: a1c995459c0d418c88dd274e04840c5d - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommenderSystem.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ad8b1ade3b1e04479d40c6d8479620c8') in 0.0035953 seconds
+[Worker0] Imported GUID: a6fd0c627f5aa48fa81512221e70a11e - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_PackageManager@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c6402795c028c81af89e29edc5090b59') in 0.0063113 seconds
+[Worker0] Imported GUID: e4439b4b4bb24a5eb61c59c5a67aa5a0 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/QuestionViewFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b12466174d42e5d494761edb205a5ae1') in 0.0037854 seconds
+[Worker0] Imported GUID: 3bbd27b3dd7be4a74aeab8da6b0af5cc - Path: Packages/com.unity.multiplayer.center/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ed4f3a56fb35a4858f0258ef1b665cf1') in 0.0045971 seconds
+[Worker0] Imported GUID: 18cde282a8d045bf9d245fdcfaa7271b - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire/UserChoicesObject.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '796ee8ee77cf3007b15e80206b52887e') in 0.0040042 seconds
+[Worker0] Imported GUID: 84e4bbd00035e4671bf14e0380a89001 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/EmptyViewIcon.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '10bde21db8787e5ddd897d81ddd76f16') in 0.0085273 seconds
+[Worker0] Imported GUID: eab7f42d361b483aaa760c5909002312 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2045bda2d6d9e6342b59ee3c827c2b58') in 0.0039884 seconds
+[Worker0] Imported GUID: 1984cd07fe96417f9e88f5771f6b4b32 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/dark.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ad110f2e12ed4c805245a1dde610a511') in 0.0109636 seconds
+[Worker0] Imported GUID: 8bce0b24c28e45d884acfcf49a3b8945 - Path: Packages/com.unity.multiplayer.center/Editor/Analytics/MultiplayerCenterAnalyticsFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '88a87453c1f6ddf1535a4903b345dd30') in 0.0037041 seconds
+[Worker0] Imported GUID: bcf305fff4614e26a6979b63e954f6d6 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/QuestionnaireView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2ca99427cf062346d87ebe11079eed2c') in 0.003682 seconds
+[Worker0] Imported GUID: 1af35a910338381f753e8a985eb5daab - Path: Packages/com.unity.modules.adaptiveperformance/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3bb7229aae80931f2bfaeee14936dcd4') in 0.0039535 seconds
+[Worker0] Imported GUID: 30b312a167534621b316172253b08723 - Path: Packages/com.unity.modules.subsystems/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f8dd552d3603edfc1e83b7b876ffe297') in 0.0039672 seconds
+[Worker0] Imported GUID: 7a7dcde6448847648629a13d746ce966 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c790bae681fe293dab5118134ee9a94e') in 0.0031093 seconds
+[Worker0] Imported GUID: bfd567a3d1631a761bca9e99fa53d86d - Path: Packages/com.unity.modules.ui/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f8ed4efb92f75a0b25a35bd992038e30') in 0.003799 seconds
+[Worker0] Imported GUID: a23c0dd570fd44b57a03a8880002fcca - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/CloudCode@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '53689f9909a3d96e3212a91dee396d6c') in 0.0082776 seconds
+[Worker0] Imported GUID: 741761e72e6f24446bd8ba03ea3d0261 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_Questionnaire.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0d833051e58097f576bc427b0590bb33') in 0.0067047 seconds
+[Worker0] Imported GUID: c7a38e6eccbfc49778cb8b77f594a971 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/ClientHosted@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7a0c0dfcdbe75b8e460ce1ce5be18432') in 0.0071883 seconds
+[Worker0] Imported GUID: 92a378669877c05c6071d0fed687bb95 - Path: Packages/com.unity.modules.tilemap/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd21d1780a47a56042625a1b8ffc73bdb') in 0.0051004 seconds
+[Worker0] Imported GUID: 54407f5deee4439eb1885bee01956e9c - Path: Packages/com.unity.multiplayer.center/Editor/Analytics/AnalyticsUtils.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd31c4547adc194b9220e50036be35565') in 0.0045357 seconds
+[Worker0] Imported GUID: 1c3db2c484234a94a19c3acdc2539575 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/StyleClasses.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e1a2684d29b6891bd960d5b5f16b2d88') in 0.0035723 seconds
+[Worker0] Imported GUID: 4745d06d5a7ca576dcf9e5e67b417652 - Path: Packages/com.unity.modules.accessibility/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd0f8fc2606b67eca025f35dd2b20f936') in 0.0032777 seconds
+[Worker0] Imported GUID: f1e4f3f59aa446bfb097357fa8ad4a8b - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView/SolutionSelectionView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ac4bdcc0b419e83192bfb3ca5f9aa078') in 0.0037063 seconds
+[Worker0] Imported GUID: 9b1a5759726ef9d39a0ab82047b615f1 - Path: Packages/com.unity.modules.hierarchycore/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b8c4b9db86e76ddd7ac0802f763b80fb') in 0.0040153 seconds
+[Worker0] Imported GUID: ae87256f29d9c8b50490f4caf75b2c41 - Path: Packages/com.unity.modules.unitywebrequestwww/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '36d94cca4ff4a34e7aeb066fed10f763') in 0.0037249 seconds
+[Worker0] Imported GUID: 8e4d240cf158245a9945c4df01d83bc1 - Path: Packages/com.unity.multiplayer.center/Tests/Runtime - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '694e5380f9b73423a6dc3fd31e2faf17') in 0.0038901 seconds
+[Worker0] Imported GUID: 9bd34ec3fe8f4aed936c3a0cf2f32e56 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '77d56727828f3738035a9e881672bf2d') in 0.0034708 seconds
+[Worker0] Imported GUID: 052c764978664486a9c04518899ddf57 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/RecommendationTabView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7f3e42cfb72415ee927c195ad9cb9f40') in 0.003495 seconds
+[Worker0] Imported GUID: d2ec2d1228c8e67cdd913cb5609176a2 - Path: Packages/com.unity.modules.unitywebrequest/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '87a4399076dd4b06995804659508bb74') in 0.0041745 seconds
+[Worker0] Imported GUID: c2c1cf24bea5410ea530b2c8a875b293 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/AnalyticsUtilsTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'af3979cefb08cce6e3a31fb3ad7375de') in 0.0033672 seconds
+[Worker0] Imported GUID: 96c71b811fa50403690b154e216fe217 - Path: Packages/com.unity.multiplayer.center/Tests/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '28f92114a59472cb812b5c0d37e4d5b2') in 0.003503 seconds
+[Worker0] Imported GUID: 1b4c88814ec6241eb8e327515399c006 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_PackageManager.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c7a9d2141c7f76cbad14798496e635fa') in 0.0061267 seconds
+[Worker0] Imported GUID: 424a8de5def3b46dcb08edd00ad1c7bd - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/Loading.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5592efaaf1c820e4f30e30dc696d215e') in 0.0068675 seconds
+[Worker0] Imported GUID: 6cfa81557736450abfb73264580451c1 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/SectionHeaderTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e674ea9c4431fd99d39e8dcce18b037f') in 0.0037084 seconds
+[Worker0] Imported GUID: 52a77c59214a4cb5a43fc7b0e097d832 - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommendationUtils.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fbb91da4391aa9e9ec47362d3738784a') in 0.0040574 seconds
+[Worker0] Imported GUID: d0e3ad91972c66f5238f5b9b7d5ae58a - Path: Packages/com.unity.modules.unitywebrequesttexture/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5545bdc61d4fdb72e8ca1823c9e5b8e9') in 0.0041263 seconds
+[Worker0] Imported GUID: dd70cd654275d47db807e918055e004f - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/Questionnaire.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '041aa71470cd755c02b9e165f09aaf6b') in 0.0066767 seconds
+[Worker0] Imported GUID: 42fe78c8fe682715a2cb531422e6ccb3 - Path: Packages/com.unity.modules.imgui/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e16b6134f82d83d8cc6dd75e9de285a4') in 0.0043823 seconds
+[Worker0] Imported GUID: a2c71c02b50345e99168bda191ec01b4 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView/RecommendationView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8da26fa751e664be4f3f2eecf876c517') in 0.0034414 seconds
+[Worker0] Imported GUID: 43674d438e19b89d7fe6af07234f3252 - Path: Packages/com.unity.modules.accessibility/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9a2fa8269ff048f063490b4b5ee06b8c') in 0.0040142 seconds
+[Worker0] Imported GUID: 38b78df4a34c94fa6a52c90239606ff1 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/DedicatedServer@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e57daa03a73c3a76cbd2d6d5dc11b2f7') in 0.0069923 seconds
+[Worker0] Imported GUID: 3fdd83b151eb8d25c5e2f82fc39dcb04 - Path: Packages/com.unity.modules.unitywebrequest/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4c24b4e858a87d0e2726045a1f780939') in 0.0041686 seconds
+[Worker0] Imported GUID: 2adec19fac7df68adf1fd6eb83197bb1 - Path: Packages/com.unity.modules.wind/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '47af05f5e8dd2942a7fb3f08d89187b4') in 0.0040349 seconds
+[Worker0] Imported GUID: 0ddc3b8a12c84454b04e4d6bdd88241c - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommendationViewData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2bd1bd66e4e479dfb97e6dfebb5bea13') in 0.0034243 seconds
+[Worker0] Imported GUID: 72aad6ae0dafb492cbf852432441bb38 - Path: Packages/com.unity.multiplayer.center/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '858b32afca94d3118fd5c31fcde586c2') in 0.003574 seconds
+[Worker0] Imported GUID: d2c2caab1f2642afa6c07dec054fd34f - Path: Packages/com.unity.multiplayer.center/Editor/OnBoarding/GettingStartedTabView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '86645357e4b09c433e1941ad15a94266') in 0.0034617 seconds
+[Worker0] Imported GUID: d104359075a97392b803d3d5aebc77f7 - Path: Packages/com.unity.modules.hierarchycore/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0efd1324906f80c6f6e6de850ce7ec52') in 0.0036591 seconds
+[Worker0] Imported GUID: 6d56244f8c39a851975d3c0bd432c66f - Path: Packages/com.unity.modules.terrain/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f125b208b053e7d99dd920da622de1da') in 0.0039954 seconds
+[Worker0] Imported GUID: f7a8357347c80dc69c08d0b1a05e2122 - Path: Packages/com.unity.modules.physics2d/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b960bc4e6224bf6b5dd9f1551d595389') in 0.0041731 seconds
+[Worker0] Imported GUID: e1ef8466c8fd01a549f10baa4d51fa17 - Path: Packages/com.unity.modules.assetbundle/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c762ebf22dcebadb7c0a7e2c0b059357') in 0.0040927 seconds
+[Worker0] Imported GUID: b66d076cdcfe3b14388de66307a0e7ff - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommendationData_6000.0.recommendations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9f62335fb3c0b9400b6f08826732a134') in 0.014981 seconds
+[Worker0] Imported GUID: c37c4c45cacc46edb43b8c32617b3e34 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/UtilsForGettingStartedTabTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'afe57babd5003e0c5270923dc2eb2ae0') in 0.0038171 seconds
+[Worker0] Imported GUID: e9669051ff70449b5923861e0e0b8838 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/N4E.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2dbbf5f1ac168cbe4cd7a8849311ef4a') in 0.0070666 seconds
+[Worker0] Imported GUID: 38a11839c22b4e67aa2e508d906edf65 - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommenderSystemData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'df48641796a67a30932104988dbaccbf') in 0.0041292 seconds
+[Worker0] Imported GUID: 5d117d33f89d41cd9123918383c9b981 - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire/QuestionnaireEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '77329aed223b89f6d36836fb781d6551') in 0.0039722 seconds
+[Worker0] Imported GUID: b46a48f780f84026b9d1e73ee1b0121d - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommendationType.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '23b93cc56b14480e504a1006dac23e4c') in 0.0052692 seconds
+[Worker0] Imported GUID: 0354877031b64465ea7e5cafea1a2653 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/DistributedAuthority@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3798f7c92e42579218782d71ea60f1ff') in 0.0214453 seconds
+[Worker0] Imported GUID: db8e609a39b9b231fccc54e5fa4cbd1b - Path: Packages/com.unity.modules.animation/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd23f7b18700c33a5a3767ef904d22537') in 0.0047734 seconds
+[Worker0] Imported GUID: 1a4266815e998967becf686f9c71f0a6 - Path: Packages/com.unity.modules.physics/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5daf819df40f8fc61812955ef0bc7154') in 0.0059509 seconds
+[Worker0] Imported GUID: be17709716f1648caa5de6d0c38103ed - Path: Packages/com.unity.multiplayer.center/Editor/Unity.Multiplayer.Center.Editor.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '30102988db4ae5e4fb17e990126bba15') in 0.0040461 seconds
+[Worker0] Imported GUID: ec02776fe29df900b897106d61977735 - Path: Packages/com.unity.modules.director/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ef42899dc410e9987c85c3172fa24bc8') in 0.0036611 seconds
+[Worker0] Imported GUID: b58a826ca804e4c67bab4283ad5a6102 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/NoNetcode@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '27efa2ee4a7a28dc4565dac5edb1035c') in 0.0062351 seconds
+[Worker0] Imported GUID: 97646f506bf040e9bd4568124c8b425e - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dfb655e8922376d0c6c7cc9fbe18f86f') in 0.0032396 seconds
+[Worker0] Imported GUID: ec737041edec4a5b93f7953a6ffe9f06 - Path: Packages/com.unity.multiplayer.center/Common/SelectedSolutionsData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6c1dc1b8b5b508906932aa5f1b3c3b80') in 0.00397 seconds
+[Worker0] Imported GUID: a1c42005fe7c5d78585a77ce396a5eea - Path: Packages/com.unity.modules.tilemap/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f557fe4cb154edb5ecbf616cb4cace07') in 0.0039816 seconds
+[Worker0] Imported GUID: b2ce704e56cc84fb3b347499263c6244 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/ClientHosted.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0a68336f6fe72efcfb8c42eb41bc2d13') in 0.0077317 seconds
+[Worker0] Imported GUID: cd561f5f687aed43bf280c27a84f79e3 - Path: Packages/com.unity.modules.screencapture/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3ea0aba5a65e8dda080807e1b371a38a') in 0.0044195 seconds
+[Worker0] Imported GUID: 281e16dfc02f4a86bf924188eb96b176 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView/RecommendationItemView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9efe3b961c6f70fa3bc5df4dc9189c35') in 0.0047322 seconds
+[Worker0] Imported GUID: bac00d6e07f0b4305bb395363c89d92b - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/MultiplayerCenterWindow.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c83284b9ae7270e09457501a1a3606f4') in 0.0406741 seconds
+[Worker0] Imported GUID: 21f32d2f4add49b3b11fadb6889a2156 - Path: Packages/com.unity.multiplayer.center/Editor/Analytics - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fc76a5148b4d00c8ccfa00a63a53d653') in 0.0053162 seconds
+[Worker0] Imported GUID: 78e5667e52329c3ceef41288763404ae - Path: Packages/com.unity.modules.vectorgraphics/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f0292ebad3ed91f00f6770880a0ac758') in 0.0048405 seconds
+[Worker0] Imported GUID: 40bf3cec17fa0b49fe04443c8332d638 - Path: Packages/com.unity.modules.jsonserialize/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ae628f73c053dbc4792501c64ed6c410') in 0.0071433 seconds
+[Worker0] Imported GUID: 042dc296246916648e55a43d0eeb2036 - Path: Packages/com.unity.modules.audio/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c84660195138962287f5e109bfe37d7d') in 0.0041868 seconds
+[Worker0] Imported GUID: 2cb589d4e01184d928bb698f06e77561 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/N4E@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e643bd6a87fad8854437224be3aa3223') in 0.0256059 seconds
+[Worker0] Imported GUID: 9d9689eab72c8480c90679f4dcf18820 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/Package.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9d4ddf4bbd11c2bf03d537a6a9ff33f2') in 0.0094834 seconds
+[Worker0] Imported GUID: 2664430aff4254d79887d32c3fc1e221 - Path: Packages/com.unity.multiplayer.center/Tests/Runtime/Unity.Multiplayer.Center.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '574b092dfc2f91ab7eab17e64709c6ba') in 0.0048028 seconds
+[Worker0] Imported GUID: 318df756abab5463e9aa361360784865 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_PackageInstalled@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd9dbf0e305e66dc92660a4e4bf43ce10') in 0.0064961 seconds
+[Worker0] Imported GUID: dd20f32039084a12a8e48dffd4d58f48 - Path: Packages/com.unity.multiplayer.center/Editor/Analytics/DebugAnalytics.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cb9f735584a20ede9e7762e37145ba9b') in 0.0038082 seconds
+[Worker0] Imported GUID: 71b3035ad4d343cbbe033e93369d187e - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommendationAuthoringData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c860a2f3d887a8e9dd2e1721aa023fad') in 0.0031001 seconds
+[Worker0] Imported GUID: ea491f91a8b84866ad13371715bf90c8 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/LogicTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b693eebb929fc9bcaea3947b3918df01') in 0.0030288 seconds
+[Worker0] Imported GUID: 26a4f29db434fd79025c91f6126382cc - Path: Packages/com.unity.modules.unityanalytics/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fad6ea887f5e2803a4a16da7e4dd52db') in 0.0037244 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Worker0] Imported GUID: 470a2d15035f44b7b2888a0db0704bff - Path: Packages/com.unity.multiplayer.center/Tests/Editor/TabGroupTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c7791e31a8f99876efb1be13d1e8b37b') in 0.0033273 seconds
+[Worker0] Imported GUID: fdefed6b790f4373b0feb7d25854d8ac - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/TabGroup.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09946083bd1fb2645e3b950cef8fe905') in 0.0037861 seconds
+[Worker0] Imported GUID: 525a6cca8dd9a4d28875a8fe824710d9 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_Package.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '871dcd08b9a5f0e7ae61561961ef188d') in 0.0094258 seconds
+[Worker0] Imported GUID: ca560c7d2a0d4453a50ec4f704ce9ce1 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/UtilsForRecommendationTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '07dd9b6f1e3d15987644a35fe03bc640') in 0.0055561 seconds
+[Worker0] Imported GUID: 29cbd1c6a8c9419aac357b8d4edbdc84 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/QuickstartTabTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eb341ffe9f51027282b91a1d82283f5c') in 0.005654 seconds
+[Worker0] Imported GUID: cfc5ccd4416341629caf73dd3e318aac - Path: Packages/com.unity.multiplayer.center/Tests/Editor/UtilsForMultiplayerCenterTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1dc839bf6c6c68abffba694b8011145f') in 0.0036479 seconds
+[Worker0] Imported GUID: 679f9999c6f8f497e806a2d5d0511879 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/PackageManager.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e98d6a46cc40de3528a208e8f0a13a61') in 0.0067789 seconds
+[Worker0] Imported GUID: 96d14b71b907bb52333b2886e665aba6 - Path: Packages/com.unity.modules.video/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0642f020d72a78a42708b2f9a9d40580') in 0.00492 seconds
+[Worker0] Imported GUID: 5262b119dc3e4259a40e6d93c8ea1048 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView/PackageSelectionView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '95a72da530748afa08075741b7097f5e') in 0.0039385 seconds
+[Worker0] Imported GUID: 0a9ab22e4e004c7db707338bccb538b9 - Path: Packages/com.unity.multiplayer.center/Common/Preset.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ca4ab457219487013c0fb59316086974') in 0.0041715 seconds
+[Worker0] Imported GUID: ad1d29f4654194951a3c8bf507914d05 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/CloudCode.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43c1a6c7c5a9d75bf3a6ea441c9655d9') in 0.0083273 seconds
+[Worker0] Imported GUID: d7711b0cc806d430b8a95f1e33ec3649 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/CustomNetcode@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd42b584cefa8050e23b85137e42c946f') in 0.0125208 seconds
+[Worker0] Imported GUID: 3cc1ebf2abb7fef6871ad48f499b6e21 - Path: Packages/com.unity.modules.vectorgraphics/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '510a5440192a1b436cd37c514623d095') in 0.0036228 seconds
+[Worker0] Imported GUID: 676a3852811f4199813ce7f6dbac6880 - Path: Packages/com.unity.multiplayer.center/Editor/Features/PackageManagement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '291a25e4718ee3ead391fa6b6549dae4') in 0.0038594 seconds
+[Worker0] Imported GUID: 7ca5cd79ef39442e599efb761abcbaac - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire/QuestionnaireData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4ccb0fb34d95a73e8acefeb82b11da07') in 0.0036063 seconds
+[Worker0] Imported GUID: a31a332ce3485f00f7df8d987302a29c - Path: Packages/com.unity.modules.unitywebrequesttexture/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '611b46efb66848dac979e0c54eb170ba') in 0.0038274 seconds
+[Worker0] Imported GUID: 8d4bc6bfa28760b29f13174d6b6ea710 - Path: Packages/com.unity.modules.subsystems/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '718432a133fbbd460afa12a21bd4d25d') in 0.0036925 seconds
+[Worker0] Imported GUID: 787ec048daec145b580d1134da5dd278 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/Unity.Multiplayer.Center.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b796fd4b391b5a02a71b7350e8b119d6') in 0.0042419 seconds
+[Worker0] Imported GUID: c8f6fa942856442b8bd72594d3ce7363 - Path: Packages/com.unity.multiplayer.center/Third Party Notices.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '000c43f9f67c2fbf6533f725b159af62') in 0.0037137 seconds
+[Worker0] Imported GUID: 17f093324b67f5bd57e55b546736750e - Path: Packages/com.unity.modules.particlesystem/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b7c0bff94913273e7a20b6bf8d7e9256') in 0.0033769 seconds
+[Worker0] Imported GUID: 87d720faa37005c08600090e04d8c739 - Path: Packages/com.unity.modules.particlesystem/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '274f817c882a5d386e2ad3b5c334710d') in 0.0043738 seconds
+[Worker0] Imported GUID: 83b28bcaaf34b4fd580114fb05d9f160 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/NGO@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '268ed7546bc6f7df8dc008bb27fc0f4b') in 0.0061962 seconds
+[Worker0] Imported GUID: d3cbe921f7b3d9a3257e7c61a5761796 - Path: Packages/com.unity.modules.terrainphysics/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3fd1ea1cc878057770371b118f0aa0a3') in 0.0040798 seconds
+[Worker0] Imported GUID: 14e86f88e9a8c9c448d7e7df92f2aeec - Path: Packages/com.unity.modules.physicscore2d/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cbd7b14df4c668179ffebfea4351ae8f') in 0.0040792 seconds
+[Worker0] Imported GUID: 51566b3736df4282bbe76645014b0cc5 - Path: Packages/com.unity.multiplayer.center/Editor/AssemblyInfo.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0fd4ffda25478d8b823c537f91f4c922') in 0.0037419 seconds
+[Worker0] Imported GUID: 4cee1dc929764056ac40ece91efef712 - Path: Packages/com.unity.multiplayer.center/Editor/Analytics/AnalyticsData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ae67b5b8fcc4a93ad56723b1d7e98b97') in 0.0033329 seconds
+[Worker0] Imported GUID: e2d09a26ce46dc617b54e49a534ace20 - Path: Packages/com.unity.modules.ai/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '680b326a8acfedeac122c85692c45be7') in 0.0033054 seconds
+[Worker0] Imported GUID: c88e90bad18cceb5d182d0c805883056 - Path: Packages/com.unity.modules.director/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '622b3ef2851a30773bed33328bc27d22') in 0.0035446 seconds
+[Worker0] Imported GUID: a7f089ed51c2345ffb7ac0bc3562453f - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0241ed573dc82679e7cce98adc195509') in 0.0034532 seconds
+[Worker0] Imported GUID: 906c12bc9cd95d3963c6d58f62522c78 - Path: Packages/com.unity.modules.cloth/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0818670feaf74ce9a52af5a970c95c2c') in 0.0040897 seconds
+[Worker0] Imported GUID: e6a135e3ea9cb46795d1b0e05ac3e1e5 - Path: Packages/com.unity.modules.jsonserialize/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3d7e0330d2662c6f24710796f20488a0') in 0.0035549 seconds
+[Worker0] Imported GUID: 34a09eb4d6e8d44989194a25525c5147 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6a04c7ff9469197cb7319b704e453aa9') in 0.003423 seconds
+[Worker0] Imported GUID: 23032f4383e95e772bce465c5896d0fd - Path: Packages/com.unity.modules.terrain/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd6d3e92fe987a8bf2b4d3a6d15f4adab') in 0.0043004 seconds
+[Worker0] Imported GUID: f62135e79edb837b2d2ee3c524da864c - Path: Packages/com.unity.modules.video/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '65d52b4f0daa807296deb0e6d531a2be') in 0.003711 seconds
+[Worker0] Imported GUID: 3fe892784421e47f5aa40c2784a6cb3e - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/DedicatedServer.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c524d3ef255868f81a9b566aea7bc7a') in 0.0064567 seconds
+[Worker0] Imported GUID: 8a752aaaadd2410dd9a84e01c1bace9f - Path: Packages/com.unity.modules.uielements/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f66bd79d1dc1f69025e1f8fd1e17506b') in 0.0037911 seconds
+[Worker0] Imported GUID: 29395f0639574c1fbc8b729aa257fb84 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/d_Check.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a8c7adfc525c86aeff49fbc610316ae1') in 0.0063072 seconds
+[Worker0] Imported GUID: a659150180ae3489ba41c71780ba3779 - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire/Questionnaire.questionnaire - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '192150530e3da0c0c3c1c63d1cfb6de4') in 0.0036161 seconds
+[Worker0] Imported GUID: 5c1ee4056d0ac7ad3c5a16597fcaa38a - Path: Packages/com.unity.modules.physics/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '874a3d06cf5b4974a08ee9719304112c') in 0.0036773 seconds
+[Worker0] Imported GUID: 553737203d61a8109f9544a97201e1aa - Path: Packages/com.unity.modules.unitywebrequestaudio/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cc285bc777755b1816e52346de8a8217') in 0.0038238 seconds
+[Worker0] Imported GUID: e5c46c19ce0ce2e0103aa6f82df1043a - Path: Packages/com.unity.modules.vehicles/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'da7a2c88aa6b877402c67413e64da113') in 0.0036905 seconds
+[Worker0] Imported GUID: c7a8b0317f4e68556d7509828e9e211e - Path: Packages/com.unity.modules.xr/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4c603a9ba5aabaaa24f335f0903b5469') in 0.0037875 seconds
+[Worker0] Imported GUID: 185e678d90804a8a85ab38276eca86fb - Path: Packages/com.unity.multiplayer.center/Editor/Analytics/MultiplayerCenterAnalytics.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '67b7136f659c2e1b9578f1b33ce3eb0b') in 0.0035717 seconds
+[Worker0] Imported GUID: 80beef77cb19e713c7c2d481b65ed485 - Path: Packages/com.unity.modules.screencapture/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dcf41c3f1ad6c1aa4eb612fc6129256a') in 0.0041111 seconds
+[Worker0] Imported GUID: 953fab16d15d5885b3600fcd6388b2ad - Path: Packages/com.unity.modules.imageconversion/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '165d0c4f108d30a36039693ea0261e4e') in 0.0039987 seconds
+[Worker0] Imported GUID: 6afb166a156df2d20433d981f4bb2832 - Path: Packages/com.unity.modules.vehicles/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cef856bf61c17b54a3a6b44c4aa00958') in 0.0041641 seconds
+[Worker0] Imported GUID: 89ffa359141b49fea9bfa6a1db3b18be - Path: Packages/com.unity.multiplayer.center/Tests/Editor/AssemblyInfo.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '50299c5bcc312cb72c2b22541842cf87') in 0.0044461 seconds
+[Worker0] Imported GUID: 23342257960b4b618e6f7c444137663c - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/PreReleaseHandling.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8c8cdfa2138167ccdb33fbb5dd789232') in 0.0036625 seconds
+[Worker0] Imported GUID: c3677cd9ede84e78b2fff6331c6301da - Path: Packages/com.unity.multiplayer.center/Editor/Questionnaire/QuestionnaireObject.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8f504a25493b750e60c22df025472949') in 0.0034045 seconds
+[Worker0] Imported GUID: 7ef8348b8ea834d7e1bc214b07f7fb87 - Path: Packages/com.unity.modules.animation/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '86b978ac7cbe683e142407b3db1a8dbe') in 0.004215 seconds
+[Worker0] Imported GUID: 0efb92c924574ec59b71b9185a6ed8fb - Path: Packages/com.unity.multiplayer.center/Tests/Editor/RecommendationTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd3b0633be7bb46899c6b848c8db75157') in 0.0037009 seconds
+[Worker0] Imported GUID: 4f78a544322c742b89e63fb68557b1d2 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/Check.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dc196ad7687f2992df72a4612a4ed8ea') in 0.0058889 seconds
+[Worker0] Imported GUID: dce12af736e0a4a1ba35d6424f897dc9 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/CustomNetcode.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aa5878fe50e7d2e9688fa14e2da08b71') in 0.0063065 seconds
+[Worker0] Imported GUID: b5930dbc378b45d406aeb881f06b6dfa - Path: Packages/com.unity.modules.physicscore2d/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7bf03ef6b2b3022e69ee5783e351a6c7') in 0.0041507 seconds
+[Worker0] Imported GUID: e9faa4a7023c43c5805642250c703f48 - Path: Packages/com.unity.multiplayer.center/Editor/Analytics/OnboardingSectionAnalyticsProvider.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6a46cddceca55a9bd924e49fa63e9ae2') in 0.0035997 seconds
+[Worker0] Imported GUID: cbb1a39d56ce4d9ac1a46ac505893fa7 - Path: Packages/com.unity.modules.terrainphysics/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8aa0d86850ec6420e3236f7b7ae0388b') in 0.0089128 seconds
+[Worker0] Imported GUID: 1b6246f2248883964991eac9e9b4817c - Path: Packages/com.unity.modules.umbra/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '810ed7a3a84a07de7977b6d294cc8455') in 0.0040706 seconds
+[Worker0] Imported GUID: f247964bd405431fbd31840f97bef608 - Path: Packages/com.unity.multiplayer.center/Common - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1454f1c3373cf5e52728a2eaecf4b4e7') in 0.0038485 seconds
+[Worker0] Imported GUID: b6a02e450cd04bb781e7728f2056251c - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/RecommenderSystemDataObject.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ac14f3c2aad63869da73935f0ad762b7') in 0.0066837 seconds
+[Worker0] Imported GUID: 71136fc5cf34f2cc10be0e33c0b08019 - Path: Packages/com.unity.modules.unityanalytics/package.ModuleCompilationTrigger - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e57fd3cb7f4eea58a71692c21a3600f6') in 0.0189399 seconds
+[Worker0] Imported GUID: fa27413e9edb06a6058d6c894eca0338 - Path: Packages/com.unity.modules.unitywebrequestwww/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6480c72369b92a7deca3088b513fa9a7') in 0.0047591 seconds
+[Worker0] Imported GUID: 63314900d81e4a15814496af1889cb51 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView/SectionHeader.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2ba61c5c2321aeed7f199c05aafd6482') in 0.0106732 seconds
+[Worker0] Imported GUID: 322b0121d39f45208a3d933e6926a9d8 - Path: Packages/com.unity.multiplayer.center/Editor/OnBoarding/QuickstartPackageHandling.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3591efe1fa39a52c731eaf75ba396a5c') in 0.0177398 seconds
+[Worker0] Imported GUID: 9431e8221045c4af189b2fa7174b9e9f - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/PackageManager@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd80f092c4dc89fdf1d12e0a70eb8180f') in 0.0060058 seconds
+[Worker0] Imported GUID: 7e006510f5f4425ca971c7de0bfbb77a - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/MultiplayerCenterWindow.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '33b190ef0d9f95c41f2aa73af1ba812f') in 0.0033551 seconds
+[Worker0] Imported GUID: 2adffcc506285402aa795dee6f3166d0 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/EmptyViewIcon@2x.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9249f3c06e11adfee5bbf0348b935656') in 0.0173889 seconds
+[Worker0] Imported GUID: 36b51591e13f48b5bed734724d149fb4 - Path: Packages/com.unity.multiplayer.center/Tests/Editor/RecommendationAnalyticsTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0a3cf2c335db6b40d883a34cda4539b5') in 0.0034597 seconds
+[Worker0] Imported GUID: d63245ece6d8f476c8c7ca24da9937f6 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/DistributedAuthority.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e0eab64e85ed11acb9ebea2445be18b1') in 0.0068073 seconds
+[Worker0] Imported GUID: 1daed49eec0f94f7ebb36dfef6159884 - Path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons/NoNetcode.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6d9b8ea2eadcbb18eeccc2f564b7c2b3') in 0.0063155 seconds
+[Worker0] Imported GUID: f526d484b0c04a1896c469f31c713786 - Path: Packages/com.unity.multiplayer.center/Editor/Recommendations/Scoring.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'efe9d3d47a333065caf5eeb784d6696b') in 0.0037987 seconds
+Worker ready: AssetImportWorkerHW1 1
+Worker ready: AssetImportWorkerHW2 2
+Android Extension - Scanning For ADB Devices 3434 ms
+Android Extension - Scanning For ADB Devices 531 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 490 ms
+Android Extension - Scanning For ADB Devices 506 ms
+TrimDiskCacheJob: Current cache size 0mb
+Scanning for USB devices : 4.214ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 437 ms
+Scanning for USB devices : 4.296ms
+Scanning for USB devices : 4.011ms
+Android Extension - Scanning For ADB Devices 434 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 479 ms
+Android Extension - Scanning For ADB Devices 458 ms
+MonoPathRemapper: Attempts to remap: 3859; Successful remaps: 1848
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\StudentGeorgeTolkach\Desktop\CG\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/StudentGeorgeTolkach/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 0.0911776 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-StudentGeorgeTolkach-6000.5.9-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-StudentGeorgeTolkach-6000.5.9 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 4580
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792504585934,"processId":19696,"allocatedMemory":46292301,"memoryLabels":[{"Default":179776},{"Permanent":15516},{"NewDelete":67341},{"Thread":4205176},{"Manager":37960},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":847618},{"Material":24},{"GfxDevice":61568},{"Animation":952},{"Audio":1256},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":115568},{"Input":42840},{"JobScheduler":256},{"TextLib":35926},{"Mono":48},{"ScriptingNativeRuntime":700156},{"BaseObject":1622696},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":4021},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":10559},{"StaticString":3808},{"Utility":2675578},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":32269},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7352},{"WebRequest":12561},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33042784},{"Camera":1417},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":1080},{"Hierarchy":1176},{"UIElements":1102240},{"CoreStats":13688},{"Identifiers":6768},{"Gui":267659},{"EditorUtility":184464},{"VersionControl":8},{"Undo":931},{"AssetDatabase":495051},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35345},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":235},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3486},{"Windowing":456},{"Licensing":1584},{"AssetReference":32},{"IPCStream":32}]}
