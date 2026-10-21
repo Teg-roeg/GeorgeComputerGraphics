@@ -98,7 +98,7 @@ public class GrapchicsPipeline : MonoBehaviour
 
         List<Vector4> imageAfterFinal = MatrixTransform(finalMatrix, verts);
 
-       // Display(imageAfterFinal);
+        // Display(imageAfterFinal);
 
     }
 
@@ -136,7 +136,7 @@ public class GrapchicsPipeline : MonoBehaviour
 
     void Display(List<Vector4> verts)
     {
-        foreach (Vector4 v in verts)
+        foreach (Vector3 v in verts)
         {
             Debug.Log(v);
         }
