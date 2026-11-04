@@ -36,12 +36,40 @@ public class OutCodeDriver : MonoBehaviour
         print("codeBoolA != codeBoolB? " + isNotEqual);  
 
         // Logical AND (&)
-        OutCode andResult = codeBoolA & codeBoolB;
+        OutCode andResult = codeBoolA * codeBoolB;
         print("AND Result (codeBoolA & codeBoolB): " + andResult.DisplayOutCode());
 
         // Logical OR (|)
-        OutCode orResult = codeBoolA | codeBoolB;
+        OutCode orResult = codeBoolA + codeBoolB;
         print("OR Result (codeBoolA | codeBoolB): " + orResult.DisplayOutCode());
+
+        // 4. Test Line Clipping Segments
+        OutCode clipper = new OutCode();
+
+        // Test A: Inside to Outside Right
+        Vector2 startA = new Vector2(0f, 0f);
+        Vector2 endA = new Vector2(2f, 0f);
+        bool resultA = clipper.LineClip(ref startA, ref endA);
+        print("Line A: Accepted = " + resultA + " | Clipped Start: " + startA + ", End: " + endA);
+
+        // Test B: Both points outside top
+        Vector2 startB = new Vector2(0f, 2f);
+        Vector2 endB = new Vector2(0.5f, 1.5f);
+        bool resultB = clipper.LineClip(ref startB, ref endB);
+        print("Line B: Accepted = " + resultB);
+
+        // Test C: Outside Top-Left to Outside BottomRight
+        Vector2 startC = new Vector2(-2f, 2f);
+        Vector2 endC = new Vector2(2f, -2f);
+        bool resultC = clipper.LineClip(ref startC, ref endC);
+        print("Line C: Accepted = " + resultC + "| Clipped Start: " + startC + ", End: " + endC);
+
+        // Test D: Vertical Line Clip (x0 == x1)
+        Vector2 startD = new Vector2(0f, -2f);
+        Vector2 endD = new Vector2(0f, 2f);
+        bool resultD = clipper.LineClip(ref startD, ref endD);
+        print("Line D: Accepted = " + resultD + " | Clipped Start: " + startD + ", End: " + endD);
+
     }
 
 }
