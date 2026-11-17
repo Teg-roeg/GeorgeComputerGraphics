@@ -70,6 +70,13 @@ public class OutCodeDriver : MonoBehaviour
         bool resultD = clipper.LineClip(ref startD, ref endD);
         print("Line D: Accepted = " + resultD + " | Clipped Start: " + startD + ", End: " + endD);
 
+        // === Rasterization
+
+        Vector2 s = new Vector2(0, 0);
+        Vector2 e = new Vector2(2, 2);
+        bool resultR = clipper.LineClip(ref s, ref e);
+        print("Line R: Accepted = " + resultR + " | Clipper Start: " + s + ", End: " + e);
+
     }
 
 }
