@@ -13,7 +13,7 @@ public class GrapchicsPipeline : MonoBehaviour
         screen = new Texture2D(1024, 1024);
 
         Model myModel = new Model();
-        myModel.CreateUnityGameObject();
+       // myModel.CreateUnityGameObject();
 
         List<Vector4> verts = Homog(myModel.vertices);
 
@@ -109,7 +109,6 @@ public class GrapchicsPipeline : MonoBehaviour
         Vector2 clippedStart = new Vector2(-0.5f, 0.5f); // Example clipped float point
         Vector2 clippedEnd = new Vector2(0.5f, -0.5f);   // Example clipped float point
 
-        // --- PUT THE CONVERSION CODE HERE ---
         int screenWidth = 800;
         int screenHeight = 600;
 
@@ -271,6 +270,57 @@ public class GrapchicsPipeline : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        screen = new Texture2D(1024, 1024);
 
+        Model myModel = new Model();
+       //  myModel.CreateUnityGameObject();
+
+        List<Vector4> verts = Homog(myModel.vertices);
+
+        Matrix4x4 world = Matrix4x4.TRS(new Vector3(0, 0, 4), Quaternion.identity, Vector3.one);
+
+        Matrix4x4 view = Matrix4x4.LookAt(Vector3.zero, new Vector3(0, 0, 4), Vector3.up);
+
+        Matrix4x4 proj = Matrix4x4.Perspective(90, 1, 1, 1000);
+
+
+        Matrix4x4 superMatrix = proj * view * world;
+
+        List<Vector4> pts = MatrixTransform(superMatrix, verts);
+
+        List<Vector4> projpts = VertsDivZ(pts);
+
+        List<Vector2Int> pixelpts = convertTo2D(projpts);
+
+        foreach (Vector3Int face in myModel.faces)
+        { 
+            Vector2Int v1 = pixelpts[face.x];
+            Vector2Int v2 = pixelpts[face.y];
+            Vector2Int v3 = pixelpts[face.z];
+
+            Draw(bresh(v1, v2));
+            Draw(bresh(v2, v3));
+            Draw(bresh(v3, v1));
+        }
+
+        screenGo.GetComponent<Renderer>().material.mainTexture = screen;
+        screen.Apply();
+    }
+
+    private List<Vector4> VertsDivZ(List<Vector4> pts)
+    {
+       // throw new NotImplementedException();
+    }
+
+    private List<Vector2Int> convertTo2D(List<Vector4> projpts)
+    {
+        List<Vector2Int> hold = new List<Vector2Int>();
+
+        foreach (Vector4 p in projpts)
+        {
+            hold.Add(new Vector2Int(Mathf.RoundToInt((p.x - 1) * 1023 / 2), Mathf.RoundToInt((p.y - 1) * 1023 / 2)));
+        }
+
+        return hold;
     }
 }
